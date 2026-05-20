@@ -1,0 +1,154 @@
+{
+    "access": {
+        "method": {
+            "PROPFIND": 70,
+            "MKCOL": 70,
+            "COPY": 70,
+            "MOVE": 70,
+            "LOCK": 70,
+            "UNLOCK": 70,
+            "PRI": 60,
+            "MALFORMED_HEX": 90,
+            "MALFORMED_TLS": 90,
+            "MALFORMED": 60,
+            "GET": 0,
+            "POST": 10,
+            "PUT": 10,
+            "PATCH": 10,
+            "DELETE": 15,
+            "HEAD": 0,
+            "OPTIONS": 0,
+            "TRACE": 20,
+            "CONNECT": 30
+        },
+        "path": {
+            "patterns": {
+                "/tmp/": 50,
+                "/etc/": 50,
+                "/bin/": 80,
+                "/../": 50,
+                ".env": 80,
+                ".git": 50,
+                "wp-login": 60,
+                "wp-admin": 60,
+                "wp-content": 50,
+                "phpMyAdmin": 60,
+                "phpmyadmin": 60,
+                ".php": 40,
+                ".asp": 50,
+                "index.asp": 80,
+                "login.asp": 80,
+                "cgi-bin": 50,
+                ".%2e": 80,
+                "%2e%2e": 80,
+                "autodiscover": 50,
+                "Powershell": 80,
+                "powershell": 80,
+                "device.rsp": 60,
+                "/bin/sh": 90,
+                "/bin/bash": 90,
+                "luci": 50
+            }
+        },
+        "query": {
+            "patterns": {
+                "wget": 80,
+                "curl": 60,
+                "chmod": 80,
+                "/tmp": 60,
+                "/bin/sh": 90,
+                "nohup": 70,
+                "base64": 50,
+                "eval(": 60,
+                "XDEBUG_SESSION": 80
+            }
+        },
+        "ua": {
+            "exact": {
+                "-": 50,
+                "": 50
+            },
+            "patterns": {
+                "curl": 15,
+                "wget": 20,
+                "python": 15,
+                "zgrab": 80,
+                "sqlmap": 100,
+                "nikto": 100,
+                "Assetnote": 80,
+                "masscan": 100,
+                "nmap": 80,
+                "nuclei": 100,
+                "gobuster": 80,
+                "dirbuster": 80,
+                "Hello World": 80,
+                "Mozila/5.0": 80,
+                "CensysInspect": 60,
+                "Censys": 50,
+                "SPARK COMMIT": 70,
+                "Keydrop": 50,
+                "onlyscans": 60
+            }
+        },
+        "ip": {
+            "blacklist": {
+                "exact": {
+                    "204.76.203.8": 70,
+                    "204.76.203.20": 70,
+                    "185.16.39.52": 80,
+                    "45.156.87.82": 90
+                },
+                "prefix": {
+                    "204.76.203": 60,
+                    "167.94": 40
+                }
+            }
+        },
+        "referer": {
+            "patterns": {
+                "103.1.237.177": 50
+            }
+        },
+        "status": {
+            "suspicious": {
+                "200": 10,
+                "400": 15,
+                "403": 20,
+                "404": 10,
+                "419": 15,
+                "499": 10,
+                "500": 10
+            }
+        }
+    },
+    "escalation": {
+        "enabled": true,
+        "thresholds": {
+            "minScore": 30,
+            "minCount": 5,
+            "escalateBy": 30
+        }
+    },
+    "levels": {
+        "normal": {
+            "min": 0,
+            "max": 29
+        },
+        "low": {
+            "min": 30,
+            "max": 49
+        },
+        "medium": {
+            "min": 50,
+            "max": 79
+        },
+        "high": {
+            "min": 80,
+            "max": 99
+        },
+        "critical": {
+            "min": 100,
+            "max": null
+        }
+    }
+}

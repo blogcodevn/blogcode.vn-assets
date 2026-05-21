@@ -29,3 +29,11 @@ IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 420
 IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 575
   Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
   RawLog: 85.204.70.96 - - [21/May/2026:14:24:21 +0000] "" 400 0 "-" "-" "-"
+
+--- Update 2026-05-21T14:34:04.724Z ---
+IP: 45.88.138.44 | Level: CRITICAL 🚨 | Score: 140
+  Reason: PathMatch(wp-login):+60, PathMatch(.php):+40, SuspiciousStatus(500):+10
+  RawLog: 45.88.138.44 - - [21/May/2026:14:32:57 +0000] "GET /wp-login.php HTTP/1.1" 500 21 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" "-"
+IP: 45.88.138.44 | Level: CRITICAL 🚨 | Score: 180
+  Reason: SuspiciousStatus(500):+10, EscalationPenalty:+30
+  RawLog: 45.88.138.44 - - [21/May/2026:14:33:10 +0000] "GET /actuator/health HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" "-"

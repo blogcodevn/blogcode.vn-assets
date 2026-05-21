@@ -3,3 +3,29 @@
 IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 140
   Reason: Method(MALFORMED):+60, UAExactMatch:+50
   RawLog: 85.204.70.96 - - [21/May/2026:14:22:18 +0000] "" 408 0 "-" "-" "-"
+
+--- Update 2026-05-21T14:29:04.547Z ---
+IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 180
+  Reason: SuspiciousStatus(500):+10, EscalationPenalty:+30
+  RawLog: 85.204.70.96 - - [21/May/2026:14:24:20 +0000] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "-"
+IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 220
+  Reason: SuspiciousStatus(500):+10, EscalationPenalty:+30
+  RawLog: 85.204.70.96 - - [21/May/2026:14:24:20 +0000] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "-"
+IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 260
+  Reason: SuspiciousStatus(500):+10, EscalationPenalty:+30
+  RawLog: 85.204.70.96 - - [21/May/2026:14:24:20 +0000] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "-"
+IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 300
+  Reason: SuspiciousStatus(500):+10, EscalationPenalty:+30
+  RawLog: 85.204.70.96 - - [21/May/2026:14:24:20 +0000] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "-"
+IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 340
+  Reason: SuspiciousStatus(500):+10, EscalationPenalty:+30
+  RawLog: 85.204.70.96 - - [21/May/2026:14:24:21 +0000] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "-"
+IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 380
+  Reason: SuspiciousStatus(500):+10, EscalationPenalty:+30
+  RawLog: 85.204.70.96 - - [21/May/2026:14:24:21 +0000] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "-"
+IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 420
+  Reason: SuspiciousStatus(500):+10, EscalationPenalty:+30
+  RawLog: 85.204.70.96 - - [21/May/2026:14:24:21 +0000] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "-"
+IP: 85.204.70.96 | Level: CRITICAL 🚨 | Score: 575
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 85.204.70.96 - - [21/May/2026:14:24:21 +0000] "" 400 0 "-" "-" "-"

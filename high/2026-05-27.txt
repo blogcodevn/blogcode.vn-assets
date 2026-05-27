@@ -961,3 +961,8 @@ IP: 51.254.59.113 | Level: CRITICAL 🚨 | Score: 125
 IP: 51.254.59.113 | Level: CRITICAL 🚨 | Score: 250
   Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
   RawLog: 51.254.59.113 - - [27/May/2026:17:03:21 +0000] "\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\xF7\xA920\x0EZ\xA4\xFECt%SP\x83\x03&\xA7K\xD8,2\x09\xC6\xBC\x863\xF8xa\xFE>Q\x00\x00\xDA\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00" 400 157 "-" "-" "-"
+
+--- Update 2026-05-27T17:09:50.614427 ---
+IP: 216.180.246.121 | Level: CRITICAL 🚨 | Score: 135
+  Reason: UAExactMatch:+50
+  RawLog: 216.180.246.121 - - [27/May/2026:17:09:10 +0000] "GET / HTTP/1.0" 444 0 "-" "-" "-"

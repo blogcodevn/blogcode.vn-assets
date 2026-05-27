@@ -1181,3 +1181,17 @@ IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2800
 IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2840
   Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
   RawLog: 205.169.39.47 - - [27/May/2026:17:14:54 +0000] "GET /blog/advanced-typescript-types?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1698 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+
+--- Update 2026-05-27T17:20:14.369081 ---
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2880
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:58 +0000] "GET /series/playwright-co-ban?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1890 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2920
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:58 +0000] "GET /series/django-project?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1712 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2960
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:58 +0000] "GET /tags/devops?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1713 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 3000
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:58 +0000] "GET /tags/containerization?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1725 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"

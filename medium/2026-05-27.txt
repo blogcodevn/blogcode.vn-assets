@@ -116,3 +116,8 @@ IP: 178.214.77.68 | Level: MEDIUM 🟡 | Score: 55
 IP: 154.38.165.235 | Level: MEDIUM 🟡 | Score: 65
   Reason: PathMatch(.git):+50, UAMatch(python):+15
   RawLog: 154.38.165.235 - - [27/May/2026:21:53:07 +0000] "GET /.git/config HTTP/1.1" 444 0 "-" "python-requests/2.32.5" "-"
+
+--- Update 2026-05-27T23:25:12.699662 ---
+IP: 104.152.52.124 | Level: MEDIUM 🟡 | Score: 65
+  Reason: UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.124 - - [27/May/2026:23:21:16 +0000] "OPTIONS rtsp://103.1.237.177/ RTSP/1.0" 400 157 "-" "-" "-"

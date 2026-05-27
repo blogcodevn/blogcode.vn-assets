@@ -1816,3 +1816,80 @@ IP: 47.251.48.41 | Level: CRITICAL 🚨 | Score: 100
 IP: 47.251.48.41 | Level: CRITICAL 🚨 | Score: 225
   Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
   RawLog: 47.251.48.41 - - [27/May/2026:23:15:26 +0000] "\x03\x00\x00\x13\x0E\xE0\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" 400 157 "-" "-" "-"
+
+--- Update 2026-05-27T23:25:12.699933 ---
+IP: 104.152.52.113 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.113 - - [27/May/2026:23:21:05 +0000] "\x16\x03\x01\x05\xCA\x01\x00\x05\xC6\x03\x03X\x06\xFF<,\x87\x82" 400 157 "-" "-" "-"
+IP: 104.152.52.113 | Level: CRITICAL 🚨 | Score: 140
+  Reason: UAMatch(curl):+15
+  RawLog: 104.152.52.113 - - [27/May/2026:23:21:05 +0000] "GET / HTTP/1.1" 444 0 "-" "curl/7.61.1" "-"
+IP: 104.152.52.120 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.120 - - [27/May/2026:23:21:06 +0000] "\xF9\xBE\xB4\xD9version\x00\x00\x00\x00\x00V\x00\x00\x00\xDB+I\xAF@\x9C\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00b|\x17j\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x05\x09\x07>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00P\x01\x00\x00\x00\x00\x00\x00\x00\xC0\xA8\x1E\xC1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x86%#4\x88\xDE\xECz\x9D$\x01\x00\x00\x00\x00\x00" 400 157 "-" "-" "-"
+IP: 104.152.52.111 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.111 - - [27/May/2026:23:21:08 +0000] "SSH-2.0-Go" 400 157 "-" "-" "-"
+IP: 104.152.52.117 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.117 - - [27/May/2026:23:21:10 +0000] "\x05\x01\x00" 400 157 "-" "-" "-"
+IP: 104.152.52.117 | Level: CRITICAL 🚨 | Score: 250
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.117 - - [27/May/2026:23:21:10 +0000] "\x04\x01\x00P\x01\x7F\x00\x00\x01\x00" 400 157 "-" "-" "-"
+IP: 104.152.52.123 | Level: HIGH 🔴 | Score: 85
+  Reason: WeirdMethod(@RSYTCD:):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.123 - - [27/May/2026:23:21:17 +0000] "@RSYTCD: 29" 400 157 "-" "-" "-"
+IP: 104.152.52.113 | Level: CRITICAL 🚨 | Score: 225
+  Reason: WeirdMethod(\x00\x9C\x00\x01\x1A+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00DESKTOP-R9JR5Z\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00Microsoft):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.113 - - [27/May/2026:23:21:17 +0000] "\x00\x9C\x00\x01\x1A+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00DESKTOP-R9JR5Z\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00Microsoft Windows NT\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" 400 157 "-" "-" "-"
+IP: 104.152.52.113 | Level: CRITICAL 🚨 | Score: 350
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.113 - - [27/May/2026:23:21:19 +0000] "\x00\x00\x00\x08\x04\xD2\x16/" 400 157 "-" "-" "-"
+IP: 104.152.52.113 | Level: CRITICAL 🚨 | Score: 505
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 104.152.52.113 - - [27/May/2026:23:21:20 +0000] "\x00\x00\x00\x08\x00\xFF\x00\xFF" 400 157 "-" "-" "-"
+IP: 104.152.52.120 | Level: CRITICAL 🚨 | Score: 210
+  Reason: WeirdMethod(\x12\x01\x00/\x00\x00\x02\x00\x00\x00\x1A\x00\x06\x01\x00):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.120 - - [27/May/2026:23:21:20 +0000] "\x12\x01\x00/\x00\x00\x02\x00\x00\x00\x1A\x00\x06\x01\x00 \x00\x01\x02\x00!\x00\x01\x03\x00\x22\x00\x04\x04\x00&\x00\x01\xFF\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00" 400 157 "-" "-" "-"
+IP: 104.152.52.120 | Level: CRITICAL 🚨 | Score: 335
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.120 - - [27/May/2026:23:21:21 +0000] ":\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xD4\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00\x01\x00\x00\x00\x13\x00\x00\x00\x10isMaster\x00\x01\x00\x00\x00\x00" 400 157 "-" "-" "-"
+IP: 104.152.52.124 | Level: CRITICAL 🚨 | Score: 190
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.124 - - [27/May/2026:23:21:23 +0000] "\x00\x0E8\x1A#9\x98CXw-\x00\x00\x00\x00\x00" 400 157 "-" "-" "-"
+IP: 104.152.52.111 | Level: CRITICAL 🚨 | Score: 250
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.111 - - [27/May/2026:23:21:23 +0000] "0\x0C\x02\x01\x01`\x07\x02\x01\x03\x04\x00\x80\x00" 400 157 "-" "-" "-"
+IP: 104.152.52.111 | Level: CRITICAL 🚨 | Score: 375
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.111 - - [27/May/2026:23:21:24 +0000] "0\x1D\x02\x01\x02w\x18\x80\x161.3.6.1.4.1.1466.20037" 400 157 "-" "-" "-"
+IP: 104.152.52.112 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.112 - - [27/May/2026:23:21:24 +0000] "*1" 400 157 "-" "-" "-"
+IP: 104.152.52.100 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.100 - - [27/May/2026:23:21:25 +0000] "\x13/multistream/1.0.0" 400 157 "-" "-" "-"
+IP: 104.152.52.118 | Level: CRITICAL 🚨 | Score: 110
+  Reason: WeirdMethod(\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7F\xFF\x7F\x08\x00\x00\x00\x01\x00):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.118 - - [27/May/2026:23:21:25 +0000] "\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7F\xFF\x7F\x08\x00\x00\x00\x01\x00 \x00:\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x004\xE6\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00(CONNECT_DATA=(COMMAND=version))" 400 157 "-" "-" "-"
+IP: 104.152.52.124 | Level: CRITICAL 🚨 | Score: 315
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.124 - - [27/May/2026:23:21:26 +0000] "AMQP\x00\x00\x09\x01" 400 157 "-" "-" "-"
+IP: 104.152.52.101 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.101 - - [27/May/2026:23:21:27 +0000] "\x00\x00\x00j\xFESMB@\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x02\x10\x02\x00\x03" 400 157 "-" "-" "-"
+IP: 104.152.52.119 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.119 - - [27/May/2026:23:21:28 +0000] "Q\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x0Bsecuremote\x00" 400 157 "-" "-" "-"
+IP: 104.152.52.103 | Level: HIGH 🔴 | Score: 85
+  Reason: WeirdMethod(\x06\x00\xFF\x07\x00\x00\x00\x00\x00\x00\x00\x00\x00\x09):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.103 - - [27/May/2026:23:21:28 +0000] "\x06\x00\xFF\x07\x00\x00\x00\x00\x00\x00\x00\x00\x00\x09 \x18\xC8\x81\x008\x8E\x04\xB5" 400 157 "-" "-" "-"
+IP: 104.152.52.118 | Level: CRITICAL 🚨 | Score: 235
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.118 - - [27/May/2026:23:21:29 +0000] "\x05d\x05\xC9\x00\x00\x00\x006L\x05d\x05\xC9\x01\x00\x00\x00\xDE\x8E\x05d\x05\xC9\x02\x00\x00\x00\x9F\x84\x05d\x05\xC9\x03\x00\x00\x00wF\x05d\x05\xC9\x04\x00\x00\x00\x1D\x90\x05d\x05\xC9\x05\x00\x00\x00\xF5R\x05d\x05\xC9\x06\x00\x00\x00\xB4X\x05d\x05\xC9\x07\x00\x00\x00\x5C\x9A\x05d\x05\xC9\x08\x00\x00\x00\x19\xB9\x05d\x05\xC9\x09\x00\x00\x00\xF1{\x05d\x05\xC9" 400 157 "-" "-" "-"
+IP: 104.152.52.112 | Level: CRITICAL 🚨 | Score: 250
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.112 - - [27/May/2026:23:21:29 +0000] "version" 400 157 "-" "-" "-"
+IP: 104.152.52.120 | Level: CRITICAL 🚨 | Score: 460
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 104.152.52.120 - - [27/May/2026:23:21:30 +0000] "\x00\x01\x00\x0C!\x12\xA4B\xFB/\xF1*\xAD\xFD`V\xFF\x8F\x0E\xA3\x80\x22\x00\x00\x80(\x00\x04\x00\x07v\x12" 400 157 "-" "-" "-"

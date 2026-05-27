@@ -1692,3 +1692,8 @@ IP: 66.249.69.67 | Level: HIGH 🔴 | Score: 80
 IP: 66.249.69.67 | Level: CRITICAL 🚨 | Score: 120
   Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
   RawLog: 66.249.69.67 - - [27/May/2026:19:15:12 +0000] "GET /ai-system-deployment/dockerfile-ai-python HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "66.249.69.67"
+
+--- Update 2026-05-27T19:58:17.355085 ---
+IP: 172.236.127.133 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 172.236.127.133 - - [27/May/2026:19:57:54 +0000] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\xCE\xEB\xD4Yj\xB8\xCF\x84\xF6\x09\x9F\xA5\xF8\xA2\x947r]\xED,\x84|\xD0\xF9\xC5w\xD7(\xEF\x14\x95!\x00\x00\x1A\xC0/\xC0+\xC0\x11\xC0\x07\xC0\x13\xC0\x09\xC0\x14\xC0" 400 157 "-" "-" "-"

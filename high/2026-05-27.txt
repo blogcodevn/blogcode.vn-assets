@@ -1775,3 +1775,8 @@ IP: 48.211.213.34 | Level: CRITICAL 🚨 | Score: 770
 IP: 48.211.213.34 | Level: CRITICAL 🚨 | Score: 810
   Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
   RawLog: 48.211.213.34 - - [27/May/2026:21:14:53 +0000] "GET /web.config HTTP/1.1" 404 4003 "https://www.reddit.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" "48.211.213.34"
+
+--- Update 2026-05-27T21:44:13.990262 ---
+IP: 216.244.66.241 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 216.244.66.241 - - [27/May/2026:21:43:14 +0000] "GET /robots.txt HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (compatible; DotBot/1.2; +https://opensiteexplorer.org/dotbot; help@moz.com)" "216.244.66.241"

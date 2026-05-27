@@ -1,0 +1,41 @@
+
+--- Update 2026-05-27T09:49:25.609846 ---
+IP: 178.214.77.68 | Level: MEDIUM 🟡 | Score: 55
+  Reason: PathMatch(.php):+40, SuspiciousStatus(400):+15
+  RawLog: 178.214.77.68 - - [25/May/2026:12:49:39 +0000] "GET /admin/config.php HTTP/1.1" 400 157 "-" "gbrmss/7.29.0" "-"
+IP: 176.65.139.254 | Level: MEDIUM 🟡 | Score: 70
+  Reason: Method(POST):+10, RefererMatch(103.1.237.177):+50, SuspiciousStatus(404):+10
+  RawLog: 176.65.139.254 - - [25/May/2026:13:51:02 +0000] "POST /boaform/admin/formLogin HTTP/1.1" 404 5266 "http://103.1.237.177:80/admin/login.asp" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" "-"
+IP: 77.83.39.94 | Level: MEDIUM 🟡 | Score: 60
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10
+  RawLog: 77.83.39.94 - - [25/May/2026:15:18:04 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Linux; Android 9; LLD-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36" "-"
+IP: 104.248.47.99 | Level: MEDIUM 🟡 | Score: 60
+  Reason: UAExactMatch:+50, SuspiciousStatus(200):+10
+  RawLog: 104.248.47.99 - - [25/May/2026:16:45:17 +0000] "GET / HTTP/1.0" 200 109104 "-" "-" "-"
+IP: 104.248.47.99 | Level: MEDIUM 🟡 | Score: 70
+  Reason: SuspiciousStatus(404):+10
+  RawLog: 104.248.47.99 - - [25/May/2026:16:45:17 +0000] "GET /odinhttpcall1779727517 HTTP/1.1" 404 18561 "-" "Mozilla/5.0 (compatible; Odin; https://docs.getodin.com/)" "-"
+IP: 59.10.21.172 | Level: MEDIUM 🟡 | Score: 60
+  Reason: UAExactMatch:+50, SuspiciousStatus(200):+10
+  RawLog: 59.10.21.172 - - [25/May/2026:21:03:50 +0000] "GET / HTTP/1.0" 200 35308 "-" "-" "-"
+IP: 121.187.57.119 | Level: MEDIUM 🟡 | Score: 60
+  Reason: UAExactMatch:+50, SuspiciousStatus(200):+10
+  RawLog: 121.187.57.119 - - [25/May/2026:21:06:49 +0000] "GET / HTTP/1.0" 200 16174 "-" "-" "-"
+IP: 47.250.136.213 | Level: MEDIUM 🟡 | Score: 50
+  Reason: UAMatch(curl):+15, SuspiciousStatus(200):+10
+  RawLog: 47.250.136.213 - - [25/May/2026:23:43:11 +0000] "GET / HTTP/1.1" 200 48704 "-" "curl/7.74.0" "-"
+IP: 185.180.141.7 | Level: MEDIUM 🟡 | Score: 70
+  Reason: UAMatch(python):+15, SuspiciousStatus(404):+10
+  RawLog: 185.180.141.7 - - [26/May/2026:01:22:54 +0000] "GET /sse HTTP/1.1" 404 4003 "-" "python-httpx/0.28.1" "-"
+IP: 143.198.83.148 | Level: MEDIUM 🟡 | Score: 60
+  Reason: UAExactMatch:+50, SuspiciousStatus(200):+10
+  RawLog: 143.198.83.148 - - [26/May/2026:08:51:38 +0000] "GET / HTTP/1.1" 200 38348000 "-" "-" "-"
+IP: 206.189.46.217 | Level: MEDIUM 🟡 | Score: 60
+  Reason: UAExactMatch:+50, SuspiciousStatus(200):+10
+  RawLog: 206.189.46.217 - - [26/May/2026:16:07:51 +0000] "GET / HTTP/1.1" 200 38348000 "-" "-" "-"
+IP: 176.65.139.66 | Level: MEDIUM 🟡 | Score: 60
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10
+  RawLog: 176.65.139.66 - - [26/May/2026:18:30:04 +0000] "POST /_rsc HTTP/1.1" 404 24 "-" "Mozilla/5.0" "-"
+IP: 159.253.120.224 | Level: MEDIUM 🟡 | Score: 60
+  Reason: UAExactMatch:+50, SuspiciousStatus(200):+10
+  RawLog: 159.253.120.224 - - [26/May/2026:20:30:46 +0000] "GET / HTTP/1.1" 200 4057800 "-" "-" "-"

@@ -39,3 +39,14 @@ IP: 176.65.139.66 | Level: MEDIUM 🟡 | Score: 60
 IP: 159.253.120.224 | Level: MEDIUM 🟡 | Score: 60
   Reason: UAExactMatch:+50, SuspiciousStatus(200):+10
   RawLog: 159.253.120.224 - - [26/May/2026:20:30:46 +0000] "GET / HTTP/1.1" 200 4057800 "-" "-" "-"
+
+--- Update 2026-05-27T09:54:35.284961 ---
+IP: 47.88.9.192 | Level: MEDIUM 🟡 | Score: 50
+  Reason: UAMatch(curl):+15, SuspiciousStatus(200):+10
+  RawLog: 47.88.9.192 - - [27/May/2026:00:36:29 +0000] "GET / HTTP/1.1" 200 65640 "-" "curl/7.74.0" "-"
+IP: 35.234.222.217 | Level: MEDIUM 🟡 | Score: 60
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10
+  RawLog: 35.234.222.217 - - [27/May/2026:01:32:11 +0000] "POST / HTTP/1.1" 404 24 "-" "Go-http-client/1.1" "-"
+IP: 8.216.84.254 | Level: MEDIUM 🟡 | Score: 50
+  Reason: UAMatch(curl):+15, SuspiciousStatus(499):+10
+  RawLog: 8.216.84.254 - - [27/May/2026:03:18:12 +0000] "GET / HTTP/1.1" 499 0 "-" "curl/7.78.0" "-"

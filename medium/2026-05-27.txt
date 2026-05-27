@@ -96,3 +96,8 @@ IP: 172.64.192.73 | Level: MEDIUM 🟡 | Score: 70
 IP: 89.190.156.61 | Level: MEDIUM 🟡 | Score: 60
   Reason: Method(POST):+10, RefererMatch(103.1.237.177):+50
   RawLog: 89.190.156.61 - - [27/May/2026:18:00:47 +0000] "POST /boaform/admin/formLogin HTTP/1.1" 444 0 "http://103.1.237.177:80/admin/login.asp" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" "-"
+
+--- Update 2026-05-27T19:28:05.564235 ---
+IP: 222.105.72.68 | Level: MEDIUM 🟡 | Score: 50
+  Reason: UAExactMatch:+50
+  RawLog: 222.105.72.68 - - [27/May/2026:19:24:25 +0000] "GET / HTTP/1.0" 444 0 "-" "-" "-"

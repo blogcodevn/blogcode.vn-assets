@@ -1,0 +1,698 @@
+
+--- Update 2026-05-27T16:44:15.839238 ---
+IP: 171.233.134.36 | Level: HIGH 🔴 | Score: 95
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /blog/expo-khoi-tao-du-an-voi-bottom-tabs-va-ecosy-state-management?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 236 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 135
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /series/python-co-ban/variables-data-types?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 227 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 175
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /series/python-co-ban/operators?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 215 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 215
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /series/python-co-ban/gioi-thieu-python?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 220 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 255
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /blog/gioi-thieu-ipset-va-vi-sao-nen-dung-thay-the-iptables?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 229 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 295
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /blog/tailwind-v4-oklch?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 204 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 335
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /blog/nextjs-state-management-voi-ecosy?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 216 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 375
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /blog/css-grid-bento?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 200 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 415
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /blog/advanced-typescript-types?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 206 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 455
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /series/playwright-co-ban?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 205 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 495
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /series/django-project?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 202 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 535
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/devops?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 575
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/containerization?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 202 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 615
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/docker?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 188 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 655
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /series/docker-zero-to-hero?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 205 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 695
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/sql?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 191 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 735
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/database?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 194 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 775
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/postgresql?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 196 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 815
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/web-development?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 202 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 855
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /series/postgresql?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 199 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 895
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/python?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 194 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 935
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/django?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 975
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/drf?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 190 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1015
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /series/django-basic?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 201 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1055
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /tags/django-advanced?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 201 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1095
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /series/django-advance?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 202 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1135
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/actionability?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 200 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1175
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/library-mode?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 200 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1215
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/browser-context?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 201 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1255
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/rag?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 190 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1295
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/debug?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1335
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/web-first-assertion?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 204 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1375
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/sklearn?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1415
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/playwright-basics?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 203 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1455
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/llm?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 191 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1495
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/pytorch?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 194 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1535
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/deep-learning?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 198 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1575
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/locator?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 194 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1615
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/ai-engineer?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1655
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /tags/playwright?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 196 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1695
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /blog/framer-motion-microinteractions?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1725 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1735
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /series?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 488 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1775
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /roadmap?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 488 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1815
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /blog?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 494 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1855
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /blog/gioi-thieu-ipset-va-vi-sao-nen-dung-thay-the-iptables?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1898 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1895
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /blog/expo-khoi-tao-du-an-voi-bottom-tabs-va-ecosy-state-management?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1702 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1935
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /series/python-co-ban/variables-data-types?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1728 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 1975
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /series/python-co-ban/operators?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1694 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2015
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /blog/tailwind-v4-oklch?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1752 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2055
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /series/python-co-ban/gioi-thieu-python?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1758 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2095
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /blog/nextjs-state-management-voi-ecosy?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1744 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2135
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:54 +0000] "GET /blog/css-grid-bento?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1693 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2175
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:55 +0000] "GET /blog/advanced-typescript-types?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1699 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2215
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /series/playwright-co-ban?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1888 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2255
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /tags/devops?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1714 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2295
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /series/django-project?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1710 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2335
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /roadmap?_rsc=yIp22O3xgPPxC28X HTTP/1.1" 200 1082 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2375
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /roadmap?_rsc=7h4NYy5eoyMcNlUN HTTP/1.1" 200 1487 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2415
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /roadmap?_rsc=x3kYBB-x4puJDfm9 HTTP/1.1" 200 5437 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2455
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /tags/containerization?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1726 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2495
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /roadmap?_rsc=iDMr9ZXhi2JSnltA HTTP/1.1" 200 295 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2535
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /tags/django?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1712 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2575
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /tags/ai-engineer?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1714 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2615
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /tags/playwright?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1713 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2655
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /tags/sklearn?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1703 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2695
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /roadmap?_rsc=xfMQms-HHRIowDQv HTTP/1.1" 200 606334 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2735
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /series/playwright-nang-cao?_rsc=aLIeLJA4jUcKGe6r HTTP/1.1" 200 205 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2775
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /roadmap?_rsc=SDip8AiCFcmmlJlD HTTP/1.1" 200 615437 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2815
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /series/ai-projects-job?_rsc=aLIeLJA4jUcKGe6r HTTP/1.1" 200 203 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2855
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /series/ai-system-deployment?_rsc=aLIeLJA4jUcKGe6r HTTP/1.1" 200 206 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2895
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /series/ai-llm-genai?_rsc=aLIeLJA4jUcKGe6r HTTP/1.1" 200 200 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2935
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /series/ai-deep-learning?_rsc=aLIeLJA4jUcKGe6r HTTP/1.1" 200 202 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 2975
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /series/ai-machine-learning?_rsc=aLIeLJA4jUcKGe6r HTTP/1.1" 200 204 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3015
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:59 +0000] "GET /series/ai-engineer-math?_rsc=aLIeLJA4jUcKGe6r HTTP/1.1" 200 202 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3055
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:00 +0000] "GET /series/playwright-nang-cao?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 2053 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3095
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:00 +0000] "GET /series/ai-projects-job?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1715 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3135
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:00 +0000] "GET /series/ai-system-deployment?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1693 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3175
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:00 +0000] "GET /series/ai-llm-genai?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1673 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3215
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series/ai-deep-learning?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1674 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3255
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series/python-nang-cao?_rsc=aLIeLJA4jUcKGe6r HTTP/1.1" 200 203 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3295
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series/ai-machine-learning?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1684 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3335
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series/ai-engineer-math?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1736 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3375
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series/python-co-ban?_rsc=aLIeLJA4jUcKGe6r HTTP/1.1" 200 202 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3415
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series/django-advance?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1696 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3455
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series/django-basic?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1714 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3495
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series/python-nang-cao?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1723 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3535
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series/python-co-ban?_rsc=iNO2psgmwB3C6hPN HTTP/1.1" 200 1735 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3575
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series?_rsc=KTDfCBekUlkZiKYH HTTP/1.1" 200 1411 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3615
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series?_rsc=6LQnbs7SPQM1WU4P HTTP/1.1" 200 295 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3655
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /series?_rsc=PqzEaBhH73HdJaCy HTTP/1.1" 200 5182 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3695
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /blog?_rsc=KTDfCBekUlkZiKYH HTTP/1.1" 200 1421 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3735
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /blog?_rsc=pPVavhy4Z47KGr4Y HTTP/1.1" 200 295 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3775
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /blog?_rsc=YfPCTdjcRlEezybm HTTP/1.1" 200 295 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3815
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /blog?_rsc=ir_sSfKFtnlNPz5C HTTP/1.1" 200 681 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3855
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /?_rsc=KTDfCBekUlkZiKYH HTTP/1.1" 200 1449 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3895
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /?_rsc=qKb7gN6tE5aMQLxP HTTP/1.1" 200 295 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3935
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:01 +0000] "GET /?_rsc=Hipd4IVwOUkRUL5x HTTP/1.1" 200 876 "https://blogcode.vn/roadmap" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 3975
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:03 +0000] "GET /series/redis?_rsc=8Fo0Duq7VrSnyJ7e HTTP/1.1" 200 193 "https://blogcode.vn/series" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4015
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:03 +0000] "GET /series/postgresql?_rsc=2rWt25W1u52xG9TX HTTP/1.1" 200 1684 "https://blogcode.vn/series" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4055
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:03 +0000] "GET /series/docker-zero-to-hero?_rsc=2rWt25W1u52xG9TX HTTP/1.1" 200 1739 "https://blogcode.vn/series" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4095
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:40:04 +0000] "GET /series/redis?_rsc=2rWt25W1u52xG9TX HTTP/1.1" 200 2059 "https://blogcode.vn/series" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 139.59.143.102 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:40:55 +0000] "GET /login.action HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:40:57 +0000] "GET / HTTP/1.1" 200 261671 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 160
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:40:57 +0000] "GET /___proxy_subdomain_whm/login HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 167.71.81.114 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:40:57 +0000] "GET /login.action HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 200
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:40:57 +0000] "GET /___proxy_subdomain_cpanel HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 240
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:40:57 +0000] "GET /v2/_catalog HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:40:58 +0000] "GET / HTTP/1.1" 200 179751 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 280
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:40:58 +0000] "GET /.DS_Store HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 160
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:40:59 +0000] "GET /___proxy_subdomain_whm/login HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 206.189.95.232 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:40:59 +0000] "GET /login.action HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 172.69.214.47 | Level: HIGH 🔴 | Score: 80
+  Reason: PathMatch(.env):+80
+  RawLog: 172.69.214.47 - - [27/May/2026:16:40:59 +0000] "GET /.env HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.99.181.249"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 200
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:00 +0000] "GET /___proxy_subdomain_cpanel HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 172.69.224.173 | Level: HIGH 🔴 | Score: 80
+  Reason: PathMatch(.env):+80
+  RawLog: 172.69.224.173 - - [27/May/2026:16:41:00 +0000] "GET /.env HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "159.65.18.197"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 400
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:00 +0000] "GET /.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 141.101.98.228 | Level: HIGH 🔴 | Score: 80
+  Reason: PathMatch(.env):+80
+  RawLog: 141.101.98.228 - - [27/May/2026:16:41:00 +0000] "GET /.env HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "134.209.25.199"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:00 +0000] "GET / HTTP/1.1" 200 228903 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 160
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:00 +0000] "GET /___proxy_subdomain_whm/login HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 240
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:01 +0000] "GET /v2/_catalog HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 200
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:01 +0000] "GET /___proxy_subdomain_cpanel HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 240
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:01 +0000] "GET /v2/_catalog HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 280
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:01 +0000] "GET /.DS_Store HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 280
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:02 +0000] "GET /.DS_Store HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 440
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:02 +0000] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 400
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:02 +0000] "GET /.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 400
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:03 +0000] "GET /.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 530
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:04 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 440
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:04 +0000] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 580
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:05 +0000] "POST /graphql HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 440
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:05 +0000] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 630
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:06 +0000] "POST /api HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 172.64.192.73 | Level: HIGH 🔴 | Score: 80
+  Reason: Method(POST):+10
+  RawLog: 172.64.192.73 - - [27/May/2026:16:41:06 +0000] "POST /api/gql HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "134.209.25.199"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 530
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:06 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 680
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:06 +0000] "POST /api/graphql HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 730
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:07 +0000] "POST /graphql/api HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 530
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:07 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 580
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:07 +0000] "POST /graphql HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 630
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:07 +0000] "POST /api HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 780
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:08 +0000] "POST /api/gql HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 680
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:08 +0000] "POST /api/graphql HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 820
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:08 +0000] "GET /s/33e27393e2431313e2838313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 580
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:08 +0000] "POST /graphql HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 630
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:08 +0000] "POST /api HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 680
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:09 +0000] "POST /api/graphql HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 730
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:09 +0000] "POST /graphql/api HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 730
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:09 +0000] "POST /graphql/api HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 860
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:09 +0000] "GET /config.json HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 780
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:09 +0000] "POST /api/gql HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 820
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:09 +0000] "GET /s/2313e27393e2431313e2838313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 780
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:09 +0000] "POST /api/gql HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 820
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:09 +0000] "GET /s/2313e26393e2431313e2838313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 172.69.224.173 | Level: CRITICAL 🚨 | Score: 120
+  Reason: PathMatch(.php):+40
+  RawLog: 172.69.224.173 - - [27/May/2026:16:41:10 +0000] "GET /info.php HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "159.65.18.197"
+IP: 172.64.192.73 | Level: CRITICAL 🚨 | Score: 150
+  Reason: PathMatch(.php):+40, EscalationPenalty:+30
+  RawLog: 172.64.192.73 - - [27/May/2026:16:41:10 +0000] "GET /info.php HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "134.209.25.199"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 900
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:10 +0000] "GET /telescope/requests HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 860
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:10 +0000] "GET /config.json HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 860
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:10 +0000] "GET /config.json HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 950
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:11 +0000] "POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3D0+%ADd+disable_functions%3D\x22\x22+%ADd+allow_url_include%3D1+%ADd+auto_prepend_file%3Dphp://input HTTP/1.1" 404 5437 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1030
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:12 +0000] "GET /info.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 900
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:12 +0000] "GET /telescope/requests HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 950
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:12 +0000] "POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3D0+%ADd+disable_functions%3D\x22\x22+%ADd+allow_url_include%3D1+%ADd+auto_prepend_file%3Dphp://input HTTP/1.1" 404 5437 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1030
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:13 +0000] "GET /info.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 900
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:13 +0000] "GET /telescope/requests HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1080
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:13 +0000] "POST / HTTP/1.1" 404 24 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 950
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:14 +0000] "POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3D0+%ADd+disable_functions%3D\x22\x22+%ADd+allow_url_include%3D1+%ADd+auto_prepend_file%3Dphp://input HTTP/1.1" 404 5437 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1120
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:14 +0000] "GET /exec?cmd=hostname HTTP/1.1" 404 4003 "-" "LeakIX infection test" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1080
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:14 +0000] "POST / HTTP/1.1" 404 24 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1030
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:14 +0000] "GET /info.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1160
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:15 +0000] "GET /nodesync?cmd=hostname HTTP/1.1" 404 4003 "-" "LeakIX infection test" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1120
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:15 +0000] "GET /nodesync?cmd=hostname HTTP/1.1" 404 3998 "-" "LeakIX infection test" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1080
+  Reason: Method(POST):+10, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:16 +0000] "POST / HTTP/1.1" 404 24 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1200
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:16 +0000] "GET /.well-known/security.txt HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1160
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:16 +0000] "GET /exec?cmd=hostname HTTP/1.1" 404 4003 "-" "LeakIX infection test" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1120
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:17 +0000] "GET /nodesync?cmd=hostname HTTP/1.1" 404 4003 "-" "LeakIX infection test" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1240
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:17 +0000] "GET /actuator/env HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1200
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:17 +0000] "GET /.well-known/security.txt HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1280
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:18 +0000] "GET /trace.axd HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1240
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:18 +0000] "GET /actuator/env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1160
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:18 +0000] "GET /exec?cmd=hostname HTTP/1.1" 404 4003 "-" "LeakIX infection test" "167.71.81.114"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1200
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:19 +0000] "GET /.well-known/security.txt HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1320
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:19 +0000] "GET /@vite/env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1280
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:19 +0000] "GET /trace.axd HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1240
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:20 +0000] "GET /actuator/env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1360
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:20 +0000] "GET /.vscode/sftp.json HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1320
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:20 +0000] "GET /@vite/env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1280
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:21 +0000] "GET /trace.axd HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1360
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:21 +0000] "GET /.vscode/sftp.json HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4135
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:21 +0000] "GET /series/ai-machine-learning?_rsc=hX311bcBhsiiDDYP HTTP/1.1" 200 7623 "https://blogcode.vn/series" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4175
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/linear-regression-sklearn?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 229 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1320
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:22 +0000] "GET /@vite/env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4215
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/linear-regression-la-gi?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 229 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4255
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/sklearn-pipeline?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 224 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4295
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/feature-engineering-co-ban?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 231 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4335
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/outlier-iqr-zscore?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 227 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4375
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/label-ordinal-encoding?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 227 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4415
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/one-hot-encoding?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 224 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4455
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/chon-scaling-method?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 228 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4495
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/feature-scaling-standardization?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 235 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4535
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/feature-scaling-min-max?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 230 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4575
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/train-val-test-split?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 228 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4615
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/dataset-iris?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 220 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4655
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/scikit-learn-co-ban?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 226 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4695
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/quy-trinh-build-ml?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 227 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4735
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/3-loai-ml?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 221 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4775
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:22 +0000] "GET /series/ai-machine-learning/ml-la-gi?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 221 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1400
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:22 +0000] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 261671 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4815
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:23 +0000] "GET /series/ai-machine-learning/linear-regression-sklearn?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1740 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4855
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:23 +0000] "GET /series/ai-machine-learning/linear-regression-la-gi?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1817 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1360
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:23 +0000] "GET /.vscode/sftp.json HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 139.59.143.102 | Level: CRITICAL 🚨 | Score: 1440
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 139.59.143.102 - - [27/May/2026:16:41:23 +0000] "GET /debug/default/view?panel=config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "139.59.143.102"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4895
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:23 +0000] "GET /series/ai-machine-learning/sklearn-pipeline?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1780 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4935
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:23 +0000] "GET /series/ai-machine-learning/feature-engineering-co-ban?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1997 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 4975
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:24 +0000] "GET /series/ai-machine-learning/outlier-iqr-zscore?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1785 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1400
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:24 +0000] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 97831 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5015
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:24 +0000] "GET /series/ai-machine-learning/label-ordinal-encoding?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1682 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5055
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:24 +0000] "GET /series/ai-machine-learning/one-hot-encoding?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1767 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5095
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:24 +0000] "GET /series/ai-machine-learning/chon-scaling-method?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 2054 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5135
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:25 +0000] "GET /series/ai-machine-learning/feature-scaling-standardization?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1718 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 206.189.95.232 | Level: CRITICAL 🚨 | Score: 1440
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 206.189.95.232 - - [27/May/2026:16:41:25 +0000] "GET /debug/default/view?panel=config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "206.189.95.232"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5175
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:25 +0000] "GET /series/ai-machine-learning/dataset-iris?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 2036 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5215
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:25 +0000] "GET /series/ai-machine-learning/feature-scaling-min-max?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1884 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5255
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:25 +0000] "GET /series/ai-machine-learning/train-val-test-split?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1912 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5295
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:26 +0000] "GET /series/ai-machine-learning/scikit-learn-co-ban?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1772 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5335
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:26 +0000] "GET /tags/series?_rsc=plng1AWM0PZBo5eO HTTP/1.1" 200 192 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1400
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:26 +0000] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 196135 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5375
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:26 +0000] "GET /series/ai-machine-learning/quy-trinh-build-ml?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1851 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5415
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:26 +0000] "GET /series/ai-machine-learning/3-loai-ml?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1898 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5455
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:26 +0000] "GET /tags/series?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1711 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5505
+  Reason: Method(POST):+10, SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:27 +0000] "POST /api/v1/view-count HTTP/1.1" 200 27 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5545
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:27 +0000] "GET /series/ai-machine-learning/ml-la-gi?_rsc=pIWccxBrVCSIXaWS HTTP/1.1" 200 1715 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 167.71.81.114 | Level: CRITICAL 🚨 | Score: 1440
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 167.71.81.114 - - [27/May/2026:16:41:27 +0000] "GET /debug/default/view?panel=config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.71.81.114"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5585
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:31 +0000] "GET /series/ai-machine-learning/ml-la-gi?_rsc=1z8uv2PGiUd3Cqvc HTTP/1.1" 200 14701 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 171.233.134.36 | Level: CRITICAL 🚨 | Score: 5635
+  Reason: Method(POST):+10, SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 171.233.134.36 - - [27/May/2026:16:41:36 +0000] "POST /api/v1/view-count HTTP/1.1" 200 27 "https://blogcode.vn/series/ai-machine-learning/ml-la-gi" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"

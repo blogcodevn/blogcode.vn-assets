@@ -65,3 +65,29 @@ IP: 172.71.103.46 | Level: MEDIUM 🟡 | Score: 50
 IP: 176.65.139.254 | Level: MEDIUM 🟡 | Score: 60
   Reason: Method(POST):+10, RefererMatch(103.1.237.177):+50
   RawLog: 176.65.139.254 - - [27/May/2026:16:24:31 +0000] "POST /boaform/admin/formLogin HTTP/1.1" 444 0 "http://103.1.237.177:80/admin/login.asp" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" "-"
+
+--- Update 2026-05-27T16:44:15.838706 ---
+IP: 171.233.134.36 | Level: MEDIUM 🟡 | Score: 55
+  Reason: SuspiciousStatus(200):+10
+  RawLog: 171.233.134.36 - - [27/May/2026:16:39:53 +0000] "GET /blog/framer-motion-microinteractions?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 212 "https://blogcode.vn/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"
+IP: 172.70.80.188 | Level: MEDIUM 🟡 | Score: 50
+  Reason: PathMatch(.git):+50
+  RawLog: 172.70.80.188 - - [27/May/2026:16:41:03 +0000] "GET /.git/config HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.99.181.249"
+IP: 172.68.229.164 | Level: MEDIUM 🟡 | Score: 50
+  Reason: PathMatch(.git):+50
+  RawLog: 172.68.229.164 - - [27/May/2026:16:41:04 +0000] "GET /.git/config HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "159.65.18.197"
+IP: 172.64.192.73 | Level: MEDIUM 🟡 | Score: 50
+  Reason: PathMatch(.git):+50
+  RawLog: 172.64.192.73 - - [27/May/2026:16:41:04 +0000] "GET /.git/config HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "134.209.25.199"
+IP: 172.68.229.164 | Level: MEDIUM 🟡 | Score: 60
+  Reason: Method(POST):+10
+  RawLog: 172.68.229.164 - - [27/May/2026:16:41:05 +0000] "POST /graphql HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.33e27393e2431313e2838313; +https://leakix.net)" "159.65.18.197"
+IP: 172.64.192.73 | Level: MEDIUM 🟡 | Score: 60
+  Reason: Method(POST):+10
+  RawLog: 172.64.192.73 - - [27/May/2026:16:41:05 +0000] "POST /graphql HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "134.209.25.199"
+IP: 172.70.80.188 | Level: MEDIUM 🟡 | Score: 60
+  Reason: Method(POST):+10
+  RawLog: 172.70.80.188 - - [27/May/2026:16:41:05 +0000] "POST /graphql/api HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e26393e2431313e2838313; +https://leakix.net)" "167.99.181.249"
+IP: 172.64.192.73 | Level: MEDIUM 🟡 | Score: 70
+  Reason: Method(POST):+10
+  RawLog: 172.64.192.73 - - [27/May/2026:16:41:06 +0000] "POST /graphql/api HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "134.209.25.199"

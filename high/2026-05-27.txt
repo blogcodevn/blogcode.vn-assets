@@ -1455,3 +1455,14 @@ IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1840
 IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1280
   Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
   RawLog: 74.7.241.36 - - [27/May/2026:17:30:19 +0000] "GET /series HTTP/1.1" 200 635161 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+
+--- Update 2026-05-27T17:35:37.890007 ---
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1880
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:30:20 +0000] "GET /tags/regression-fixture HTTP/1.1" 200 743153 "https://blogcode.vn/series/playwright-co-ban/download-save-as" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1320
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:30:21 +0000] "GET /tags/installation HTTP/1.1" 200 743119 "https://www.blogcode.vn/series/python-co-ban/gioi-thieu-python" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 66.249.69.68 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 66.249.69.68 - - [27/May/2026:17:34:19 +0000] "GET /tags/browsable-api HTTP/1.1" 200 740297 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "66.249.69.68"

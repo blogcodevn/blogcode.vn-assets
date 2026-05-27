@@ -1195,3 +1195,263 @@ IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2960
 IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 3000
   Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
   RawLog: 205.169.39.47 - - [27/May/2026:17:14:58 +0000] "GET /tags/containerization?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1725 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+
+--- Update 2026-05-27T17:30:26.852078 ---
+IP: 149.22.83.98 | Level: HIGH 🔴 | Score: 90
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:44 +0000] "GET /.env.staging HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 149.22.83.98 | Level: CRITICAL 🚨 | Score: 180
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:44 +0000] "GET /config.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 149.22.83.98 | Level: CRITICAL 🚨 | Score: 270
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:44 +0000] "GET /.env.production HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 149.22.83.98 | Level: CRITICAL 🚨 | Score: 360
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:44 +0000] "GET /src/.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 149.22.83.98 | Level: CRITICAL 🚨 | Score: 480
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:44 +0000] "GET /.env.local HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 149.22.83.98 | Level: CRITICAL 🚨 | Score: 600
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:44 +0000] "GET /.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 149.22.83.98 | Level: CRITICAL 🚨 | Score: 720
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:44 +0000] "GET /backend/.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 149.22.83.98 | Level: CRITICAL 🚨 | Score: 840
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:45 +0000] "GET /.env.prod HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 149.22.83.98 | Level: CRITICAL 🚨 | Score: 880
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:46 +0000] "GET / HTTP/1.1" 200 632789 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 149.22.83.98 | Level: CRITICAL 🚨 | Score: 1000
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 149.22.83.98 - - [27/May/2026:17:25:46 +0000] "GET /.env.dev HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "149.22.83.98"
+IP: 74.7.227.27 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:26:47 +0000] "GET /tags/react-router-v7 HTTP/1.1" 200 743366 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:26:53 +0000] "GET /_next/static/media/2bbe8d2671613f1f-s.p.067x_6k0k23tk.woff2 HTTP/1.1" 200 10280 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 160
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:26:59 +0000] "GET /blog/thiet-lap-fullstack-react-router-v7-tren-cloudflare-workers HTTP/1.1" 200 764040 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 200
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:04 +0000] "GET /tags/playwright-basics HTTP/1.1" 200 743583 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 240
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:08 +0000] "GET /tags/library-mode HTTP/1.1" 200 743575 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 280
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:13 +0000] "GET /tags/react HTTP/1.1" 200 744676 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 320
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:16 +0000] "GET /tags/ecosy HTTP/1.1" 200 743656 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 360
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:19 +0000] "GET /tags/debug HTTP/1.1" 200 743507 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 400
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:23 +0000] "GET /tags/web-first-assertion HTTP/1.1" 200 743579 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 440
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:25 +0000] "GET /_next/static/chunks/0bmageb~a8772.js HTTP/1.1" 200 16323 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 480
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:28 +0000] "GET /tags/machine-learning HTTP/1.1" 200 744107 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 520
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:30 +0000] "GET /tags/state-management HTTP/1.1" 200 743874 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 560
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:32 +0000] "GET /series/python-co-ban/operators HTTP/1.1" 200 762484 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 600
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:34 +0000] "GET /tags/cloudflare-workers HTTP/1.1" 200 743405 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 640
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:35 +0000] "GET /series/docker-zero-to-hero HTTP/1.1" 200 761808 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 680
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:46 +0000] "GET /series/playwright-co-ban HTTP/1.1" 200 800470 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 720
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:48 +0000] "GET /_next/static/chunks/0pqt~8bl3ukh4.js HTTP/1.1" 200 9254 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 760
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:49 +0000] "GET /_next/static/media/1bffadaabf893a1e-s.p.16ipb6fqu393i.woff2 HTTP/1.1" 200 85272 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 800
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:51 +0000] "GET /tags/vite HTTP/1.1" 200 744373 "https://blogcode.vn/blog/thiet-lap-fullstack-react-router-v7-tren-cloudflare-workers" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 840
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:53 +0000] "GET /js/content.js HTTP/1.1" 200 743 "https://blogcode.vn/blog/nextjs-state-management-voi-ecosy" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 880
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:54 +0000] "GET /series HTTP/1.1" 200 635161 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 920
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:57 +0000] "GET /series/ai-machine-learning HTTP/1.1" 200 752714 "https://blogcode.vn/tags/machine-learning" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 960
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:27:58 +0000] "GET /series/python-co-ban/gioi-thieu-python HTTP/1.1" 200 764198 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1000
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:28:00 +0000] "GET /tags/expo HTTP/1.1" 200 743307 "https://blogcode.vn/tags/ecosy" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1040
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:28:01 +0000] "GET /tags/e2e-testing HTTP/1.1" 200 743133 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:28:01 +0000] "GET /icons/favicons/favicon-32x32.png HTTP/1.1" 200 1289 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1080
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:28:02 +0000] "GET /tags/postgresql HTTP/1.1" 200 743150 "https://blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:28:13 +0000] "GET /icons/apple/apple-touch-icon-180x180.png HTTP/1.1" 200 6123 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:28:14 +0000] "GET /series/playwright-co-ban/context-pages-list HTTP/1.1" 200 800825 "https://blogcode.vn/series/playwright-co-ban" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 160
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:28:15 +0000] "GET /tags/machine-learning HTTP/1.1" 200 744069 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 200
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:28:16 +0000] "GET /icons/apple/apple-touch-icon-114x114.png HTTP/1.1" 200 3956 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 240
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:28:26 +0000] "GET /icons/apple/apple-touch-icon-144x144.png HTTP/1.1" 200 4283 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1160
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:28:27 +0000] "GET /series/playwright-co-ban/getbyplaceholder HTTP/1.1" 200 805168 "https://blogcode.vn/series/playwright-co-ban" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 280
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:28:27 +0000] "GET /_next/image?q=75&url=%2Flogo.png&w=384 HTTP/1.1" 200 9296 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 320
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:28:38 +0000] "GET /tags/pytorch HTTP/1.1" 200 744347 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1200
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:28:38 +0000] "GET /series/playwright-co-ban/test-before-after-all HTTP/1.1" 200 796679 "https://blogcode.vn/series/playwright-co-ban" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 360
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:28:48 +0000] "GET /blog/gioi-thieu-ipset-va-vi-sao-nen-dung-thay-the-iptables HTTP/1.1" 200 753536 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1240
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:28:48 +0000] "GET /series/playwright-co-ban/css-attribute-selectors HTTP/1.1" 200 810281 "https://blogcode.vn/series/playwright-co-ban" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 400
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:00 +0000] "GET /blog/expo-khoi-tao-du-an-voi-bottom-tabs-va-ecosy-state-management HTTP/1.1" 200 764104 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1280
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:00 +0000] "GET /series/playwright-co-ban/download-save-as HTTP/1.1" 200 811130 "https://blogcode.vn/series/playwright-co-ban" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 440
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:12 +0000] "GET /blog/thiet-lap-fullstack-react-router-v7-tren-cloudflare-workers HTTP/1.1" 200 764035 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1320
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:12 +0000] "GET /series/playwright-co-ban/phan-biet-3-layer HTTP/1.1" 200 803826 "https://blogcode.vn/series/playwright-co-ban" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 480
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:15 +0000] "GET /blog HTTP/1.1" 200 631479 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1360
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:15 +0000] "GET /series/ai-machine-learning/outlier-iqr-zscore HTTP/1.1" 200 770565 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 520
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:16 +0000] "GET /blog/nextjs-state-management-voi-ecosy HTTP/1.1" 200 754844 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 560
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:18 +0000] "GET /favicon.ico HTTP/1.1" 200 1179 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1400
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:18 +0000] "GET /series/ai-machine-learning/k-means-clustering HTTP/1.1" 200 772347 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 600
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:19 +0000] "GET /blog/framer-motion-microinteractions HTTP/1.1" 200 755951 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 640
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:21 +0000] "GET /blog/advanced-typescript-types HTTP/1.1" 200 752623 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1440
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:22 +0000] "GET /series/ai-machine-learning/chon-scaling-method HTTP/1.1" 200 772051 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 680
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:24 +0000] "GET /icons/apple/apple-touch-icon-152x152.png HTTP/1.1" 200 4455 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1480
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:24 +0000] "GET /series/ai-machine-learning/dbscan HTTP/1.1" 200 773414 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 720
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:25 +0000] "GET /icons/apple/apple-touch-icon-120x120.png HTTP/1.1" 200 4428 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 760
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:36 +0000] "GET /icons/apple/apple-touch-icon-60x60.png HTTP/1.1" 200 1590 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1520
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:37 +0000] "GET /series/playwright-co-ban/layout-right-of HTTP/1.1" 200 808461 "https://blogcode.vn/series/playwright-co-ban" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 800
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:37 +0000] "GET /js/content.js HTTP/1.1" 200 743 "https://www.blogcode.vn/blog/gioi-thieu-ipset-va-vi-sao-nen-dung-thay-the-iptables" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 840
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:39 +0000] "GET /icons/apple/apple-touch-icon-72x72.png HTTP/1.1" 200 2266 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 880
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:50 +0000] "GET /icons/apple/apple-touch-icon-76x76.png HTTP/1.1" 200 2306 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 920
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:51 +0000] "GET /icons/apple/apple-touch-icon-57x57.png HTTP/1.1" 200 1580 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1560
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:51 +0000] "GET /series/playwright-co-ban/uncheck-checkbox HTTP/1.1" 200 812155 "https://blogcode.vn/series/playwright-co-ban" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 960
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:52 +0000] "GET /blog/server-components-demystified HTTP/1.1" 200 753641 "https://www.blogcode.vn/blog" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1000
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:55 +0000] "GET /series/python-co-ban/gioi-thieu-python HTTP/1.1" 200 764362 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1600
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:55 +0000] "GET /series/ai-machine-learning/overfitting-underfitting HTTP/1.1" 200 771802 "https://blogcode.vn/series/ai-machine-learning" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1040
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:29:57 +0000] "GET /blog/micro-frontends-vite HTTP/1.1" 200 754438 "https://www.blogcode.vn/blog" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1640
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:29:57 +0000] "GET /tags/case-sensitivity HTTP/1.1" 200 743473 "https://blogcode.vn/series/playwright-co-ban/css-attribute-selectors" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1080
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:30:12 +0000] "GET /icons/favicons/favicon-48x48.png HTTP/1.1" 200 2266 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1680
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:30:12 +0000] "GET /tags/attribute-selector HTTP/1.1" 200 743553 "https://blogcode.vn/series/playwright-co-ban/css-attribute-selectors" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:30:13 +0000] "GET /icons/favicons/favicon-96x96.png HTTP/1.1" 200 6790 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1720
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:30:15 +0000] "GET /tags/multiple-attribute HTTP/1.1" 200 743091 "https://blogcode.vn/series/playwright-co-ban/css-attribute-selectors" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1160
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:30:15 +0000] "GET /blog/tailwind-v4-oklch HTTP/1.1" 200 752861 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1760
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:30:16 +0000] "GET /tags/sklearn-pipeline HTTP/1.1" 200 742888 "https://blogcode.vn/series/ai-machine-learning/chon-scaling-method" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1200
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:30:17 +0000] "GET /_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2 HTTP/1.1" 200 29288 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1800
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:30:17 +0000] "GET /tags/density-clustering HTTP/1.1" 200 742550 "https://blogcode.vn/series/ai-machine-learning/dbscan" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1240
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:30:18 +0000] "GET /_next/static/media/1bffadaabf893a1e-s.p.16ipb6fqu393i.woff2 HTTP/1.1" 200 85272 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"
+IP: 74.7.227.27 | Level: CRITICAL 🚨 | Score: 1840
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.227.27 - - [27/May/2026:17:30:19 +0000] "GET /tags/flaky HTTP/1.1" 200 742858 "https://blogcode.vn/series/playwright-co-ban/layout-right-of" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.227.27"
+IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1280
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 74.7.241.36 - - [27/May/2026:17:30:19 +0000] "GET /series HTTP/1.1" 200 635161 "https://www.blogcode.vn/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)" "74.7.241.36"

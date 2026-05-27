@@ -1466,3 +1466,14 @@ IP: 74.7.241.36 | Level: CRITICAL 🚨 | Score: 1320
 IP: 66.249.69.68 | Level: HIGH 🔴 | Score: 80
   Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
   RawLog: 66.249.69.68 - - [27/May/2026:17:34:19 +0000] "GET /tags/browsable-api HTTP/1.1" 200 740297 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "66.249.69.68"
+
+--- Update 2026-05-27T17:45:49.053090 ---
+IP: 17.246.23.14 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 17.246.23.14 - - [27/May/2026:17:40:41 +0000] "GET /robots.txt HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)" "17.246.23.14"
+IP: 17.246.23.14 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 17.246.23.14 - - [27/May/2026:17:40:43 +0000] "GET /robots.txt HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)" "17.246.23.14"
+IP: 17.246.23.14 | Level: CRITICAL 🚨 | Score: 160
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 17.246.23.14 - - [27/May/2026:17:40:44 +0000] "GET /robots.txt HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)" "17.246.23.14"

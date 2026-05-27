@@ -966,3 +966,218 @@ IP: 51.254.59.113 | Level: CRITICAL 🚨 | Score: 250
 IP: 216.180.246.121 | Level: CRITICAL 🚨 | Score: 135
   Reason: UAExactMatch:+50
   RawLog: 216.180.246.121 - - [27/May/2026:17:09:10 +0000] "GET / HTTP/1.0" 444 0 "-" "-" "-"
+
+--- Update 2026-05-27T17:15:03.701670 ---
+IP: 66.249.69.66 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 66.249.69.66 - - [27/May/2026:17:11:29 +0000] "GET /series/playwright-co-ban/before-unload-dialog HTTP/1.1" 200 816996 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "66.249.69.66"
+IP: 205.169.39.47 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/10n2y.2ev8yb..js HTTP/1.1" 200 6558 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/turbopack-0hsqo7h~-zid-.js HTTP/1.1" 200 4167 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 160
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/0pqt~8bl3ukh4.js HTTP/1.1" 200 9261 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 200
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2 HTTP/1.1" 200 48432 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 240
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/0~5qe4x92.qm2.css HTTP/1.1" 200 2079 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 280
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/12qz7kg_ft3p0.js HTTP/1.1" 200 12907 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 320
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/media/dfb4b19a8d76831e-s.p.0cvzgn0b~wq2z.woff2 HTTP/1.1" 200 91836 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 360
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/0_e11msnswzh~.css HTTP/1.1" 200 17087 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 400
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/media/f67ad414ed34149c-s.p.0036ggltrltw4.woff2 HTTP/1.1" 200 51636 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 440
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/0bmageb~a8772.js HTTP/1.1" 200 16308 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 480
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/0gmtlf28orq4h.js HTTP/1.1" 200 4457 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 520
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/media/1bffadaabf893a1e-s.p.16ipb6fqu393i.woff2 HTTP/1.1" 200 85272 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 560
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2 HTTP/1.1" 200 29288 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 600
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/07igakwgqmy8f.js HTTP/1.1" 200 8810 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 640
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/0elu8bkmilu96.js HTTP/1.1" 200 39382 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 680
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:47 +0000] "GET /_next/static/chunks/0.49l~y1fcri8.js HTTP/1.1" 200 70825 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 720
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:48 +0000] "GET /_next/static/chunks/0hc6xw7waoa1a.js HTTP/1.1" 200 39445 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 760
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:48 +0000] "GET /_next/image?url=%2Flogo.png&w=256&q=75 HTTP/1.1" 200 7634 "https://blogcode.vn/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 800
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:50 +0000] "GET /blog/gioi-thieu-ipset-va-vi-sao-nen-dung-thay-the-iptables?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 229 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 840
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:50 +0000] "GET /series/python-co-ban/gioi-thieu-python?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 220 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 880
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:50 +0000] "GET /blog/tailwind-v4-oklch?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 204 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 920
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /blog/nextjs-state-management-voi-ecosy?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 216 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 960
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /series/python-co-ban/variables-data-types?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 227 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1000
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /blog/expo-khoi-tao-du-an-voi-bottom-tabs-va-ecosy-state-management?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 236 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1040
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /series/python-co-ban/operators?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 215 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1080
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /blog/css-grid-bento?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 200 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /blog/advanced-typescript-types?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 206 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1160
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /series/playwright-co-ban?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 205 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1200
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /series/django-project?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 202 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1240
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /tags/devops?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1280
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /tags/containerization?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 202 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1320
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /tags/docker?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1360
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /series/docker-zero-to-hero?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 205 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1400
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /tags/sql?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 191 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1440
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /tags/database?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 189 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1480
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /tags/postgresql?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 196 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1520
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /series/postgresql?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 199 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1560
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:51 +0000] "GET /tags/web-development?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 202 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1600
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/python?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 194 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1640
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/django?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1680
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /series/django-basic?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 201 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1720
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/drf?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 190 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1760
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/django-advanced?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 201 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1800
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /series/django-advance?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 202 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1840
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/actionability?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 200 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1880
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/library-mode?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 200 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1920
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/browser-context?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 201 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 1960
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/rag?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 190 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2000
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/debug?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2040
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/web-first-assertion?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 204 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2080
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/sklearn?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 193 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/playwright-basics?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 203 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2160
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:52 +0000] "GET /tags/llm?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 191 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2200
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /tags/pytorch?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 194 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2240
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /tags/deep-learning?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 198 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2280
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /tags/locator?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 194 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2320
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /tags/ai-engineer?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 198 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2360
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /tags/playwright?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 196 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2400
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /series?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 483 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2440
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /roadmap?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 483 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2480
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /blog/gioi-thieu-ipset-va-vi-sao-nen-dung-thay-the-iptables?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1898 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2520
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /blog?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 494 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2560
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /blog/expo-khoi-tao-du-an-voi-bottom-tabs-va-ecosy-state-management?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1701 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2600
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /series/python-co-ban/variables-data-types?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1729 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2640
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:53 +0000] "GET /series/python-co-ban/operators?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1693 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2680
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:54 +0000] "GET /blog/tailwind-v4-oklch?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1752 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2720
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:54 +0000] "GET /series/python-co-ban/gioi-thieu-python?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1765 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2760
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:54 +0000] "GET /blog/nextjs-state-management-voi-ecosy?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1755 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2800
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:54 +0000] "GET /blog/css-grid-bento?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1693 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"
+IP: 205.169.39.47 | Level: CRITICAL 🚨 | Score: 2840
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 205.169.39.47 - - [27/May/2026:17:14:54 +0000] "GET /blog/advanced-typescript-types?_rsc=tXyZJ52UQVBCVsD3 HTTP/1.1" 200 1698 "https://blogcode.vn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.119 Safari/537.36" "205.169.39.47"

@@ -1808,3 +1808,11 @@ IP: 154.38.165.235 | Level: CRITICAL 🚨 | Score: 145
 IP: 154.38.165.235 | Level: CRITICAL 🚨 | Score: 185
   Reason: PathMatch(.php):+40
   RawLog: 154.38.165.235 - - [27/May/2026:21:53:08 +0000] "GET /frontend_dev.php/$ HTTP/1.1" 444 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0" "-"
+
+--- Update 2026-05-27T23:19:50.177254 ---
+IP: 47.251.48.41 | Level: CRITICAL 🚨 | Score: 100
+  Reason: WeirdMethod(\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03I\x06\xB2\xF9\xBC\x99i\xC0Y\xFB\xF8\xBAe-\x83Ud]\x0E\x8D\xB7b8\xB4g\xC6\xDD9dZ8f):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 47.251.48.41 - - [27/May/2026:23:15:15 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03I\x06\xB2\xF9\xBC\x99i\xC0Y\xFB\xF8\xBAe-\x83Ud]\x0E\x8D\xB7b8\xB4g\xC6\xDD9dZ8f g\xC1\x81i\xB3\xF6\xF2\xCB\xB0\xA9\x19N\xD6\xBD\x95g|p\xFC\xE9<Z\xA1\x90T\xB7\xE9\xA58'O;\x00&\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 157 "-" "-" "-"
+IP: 47.251.48.41 | Level: CRITICAL 🚨 | Score: 225
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 47.251.48.41 - - [27/May/2026:23:15:26 +0000] "\x03\x00\x00\x13\x0E\xE0\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" 400 157 "-" "-" "-"

@@ -1684,3 +1684,11 @@ IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 1400
 IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 1490
   Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
   RawLog: 20.171.55.53 - - [27/May/2026:18:54:33 +0000] "GET /@fs/.git/config?import?raw HTTP/1.1" 404 4003 "https://github.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+
+--- Update 2026-05-27T19:17:55.012254 ---
+IP: 66.249.69.67 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 66.249.69.67 - - [27/May/2026:19:13:11 +0000] "GET /ai-system-deployment/deploy-aws-gcp HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "66.249.69.67"
+IP: 66.249.69.67 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 66.249.69.67 - - [27/May/2026:19:15:12 +0000] "GET /ai-system-deployment/dockerfile-ai-python HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "66.249.69.67"

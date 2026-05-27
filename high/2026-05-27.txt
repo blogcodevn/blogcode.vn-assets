@@ -1576,3 +1576,26 @@ IP: 178.214.77.67 | Level: CRITICAL 🚨 | Score: 215
 IP: 216.73.216.58 | Level: HIGH 🔴 | Score: 80
   Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
   RawLog: 216.73.216.58 - - [27/May/2026:18:35:48 +0000] "GET /_next/static/chunks/12qz7kg_ft3p0.js HTTP/1.1" 200 12907 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)" "216.73.216.58"
+
+--- Update 2026-05-27T18:42:19.073061 ---
+IP: 199.45.154.137 | Level: CRITICAL 🚨 | Score: 110
+  Reason: UAMatch(CensysInspect):+60, UAMatch(Censys):+50
+  RawLog: 199.45.154.137 - - [27/May/2026:18:37:24 +0000] "GET / HTTP/1.1" 444 0 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "-"
+IP: 199.45.154.137 | Level: CRITICAL 🚨 | Score: 235
+  Reason: UAMatch(CensysInspect):+60, UAMatch(Censys):+50, SuspiciousStatus(400):+15
+  RawLog: 199.45.154.137 - - [27/May/2026:18:37:26 +0000] "GET / HTTP/1.1" 400 157 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "-"
+IP: 199.45.154.137 | Level: CRITICAL 🚨 | Score: 360
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 199.45.154.137 - - [27/May/2026:18:37:27 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03=\x09\xEB\xC3kJ\xFF\xAC\xF1\xF1\xBA\xEEOq\xD2\xB9\x93nU\xF8\x9A" 400 157 "-" "-" "-"
+IP: 199.45.154.137 | Level: CRITICAL 🚨 | Score: 485
+  Reason: Method(PRI):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 199.45.154.137 - - [27/May/2026:18:37:30 +0000] "PRI * HTTP/2.0" 400 157 "-" "-" "-"
+IP: 199.45.154.137 | Level: CRITICAL 🚨 | Score: 625
+  Reason: UAMatch(CensysInspect):+60, UAMatch(Censys):+50, EscalationPenalty:+30
+  RawLog: 199.45.154.137 - - [27/May/2026:18:37:41 +0000] "GET /login HTTP/1.1" 444 0 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "-"
+IP: 199.45.154.137 | Level: CRITICAL 🚨 | Score: 740
+  Reason: WeirdMethod(\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03\x5Cf\xFBCG\x81\xF2\xFF\xEE\xA5\x089\xFA\xCB\xBB\xDA\xB0`!\xA5\x00+\xBC\x08'\x10,U\xAE\xE16t):+20, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 199.45.154.137 - - [27/May/2026:18:37:45 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03\x5Cf\xFBCG\x81\xF2\xFF\xEE\xA5\x089\xFA\xCB\xBB\xDA\xB0`!\xA5\x00+\xBC\x08'\x10,U\xAE\xE16t \x17\x1CC\xEE\xFET\xDD\x00" 400 157 "-" "-" "-"
+IP: 187.108.1.142 | Level: CRITICAL 🚨 | Score: 215
+  Reason: UAMatch(masscan):+100, SuspiciousStatus(400):+15
+  RawLog: 187.108.1.142 - - [27/May/2026:18:40:52 +0000] "GET / HTTP/1.0" 400 255 "-" "ivre-masscan/1.3 https://github.com/robertdavidgraham/" "-"

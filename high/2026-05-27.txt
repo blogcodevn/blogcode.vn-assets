@@ -1571,3 +1571,8 @@ IP: 187.108.1.142 | Level: CRITICAL 🚨 | Score: 100
 IP: 178.214.77.67 | Level: CRITICAL 🚨 | Score: 215
   Reason: UAMatch(masscan):+100
   RawLog: 178.214.77.67 - - [27/May/2026:18:28:37 +0000] "GET / HTTP/1.0" 444 0 "-" "ivre-masscan/1.3 https://github.com/robertdavidgraham/" "-"
+
+--- Update 2026-05-27T18:37:07.900702 ---
+IP: 216.73.216.58 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 216.73.216.58 - - [27/May/2026:18:35:48 +0000] "GET /_next/static/chunks/12qz7kg_ft3p0.js HTTP/1.1" 200 12907 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)" "216.73.216.58"

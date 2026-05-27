@@ -1599,3 +1599,11 @@ IP: 199.45.154.137 | Level: CRITICAL 🚨 | Score: 740
 IP: 187.108.1.142 | Level: CRITICAL 🚨 | Score: 215
   Reason: UAMatch(masscan):+100, SuspiciousStatus(400):+15
   RawLog: 187.108.1.142 - - [27/May/2026:18:40:52 +0000] "GET / HTTP/1.0" 400 255 "-" "ivre-masscan/1.3 https://github.com/robertdavidgraham/" "-"
+
+--- Update 2026-05-27T18:47:31.403517 ---
+IP: 66.249.69.70 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 66.249.69.70 - - [27/May/2026:18:44:32 +0000] "GET /ai-system-deployment/wandb-tracking HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "66.249.69.70"
+IP: 66.249.69.69 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 66.249.69.69 - - [27/May/2026:18:44:36 +0000] "GET /tags/route-abort HTTP/1.1" 200 741280 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "66.249.69.69"

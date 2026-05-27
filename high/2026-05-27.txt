@@ -1697,3 +1697,8 @@ IP: 66.249.69.67 | Level: CRITICAL 🚨 | Score: 120
 IP: 172.236.127.133 | Level: CRITICAL 🚨 | Score: 125
   Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
   RawLog: 172.236.127.133 - - [27/May/2026:19:57:54 +0000] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\xCE\xEB\xD4Yj\xB8\xCF\x84\xF6\x09\x9F\xA5\xF8\xA2\x947r]\xED,\x84|\xD0\xF9\xC5w\xD7(\xEF\x14\x95!\x00\x00\x1A\xC0/\xC0+\xC0\x11\xC0\x07\xC0\x13\xC0\x09\xC0\x14\xC0" 400 157 "-" "-" "-"
+
+--- Update 2026-05-27T20:43:39.514924 ---
+IP: 213.209.159.175 | Level: HIGH 🔴 | Score: 80
+  Reason: PathMatch(.env):+80
+  RawLog: 213.209.159.175 - - [27/May/2026:20:39:08 +0000] "GET /.env HTTP/1.1" 444 0 "-" "Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.9a2) Gecko/20080530 Firefox/3.0a2" "-"

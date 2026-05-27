@@ -111,3 +111,8 @@ IP: 158.173.67.247 | Level: MEDIUM 🟡 | Score: 50
 IP: 178.214.77.68 | Level: MEDIUM 🟡 | Score: 55
   Reason: PathMatch(.php):+40, SuspiciousStatus(400):+15
   RawLog: 178.214.77.68 - - [27/May/2026:21:42:38 +0000] "GET /admin/config.php HTTP/1.1" 400 157 "-" "gbrmss/7.29.0" "-"
+
+--- Update 2026-05-27T21:54:38.100367 ---
+IP: 154.38.165.235 | Level: MEDIUM 🟡 | Score: 65
+  Reason: PathMatch(.git):+50, UAMatch(python):+15
+  RawLog: 154.38.165.235 - - [27/May/2026:21:53:07 +0000] "GET /.git/config HTTP/1.1" 444 0 "-" "python-requests/2.32.5" "-"

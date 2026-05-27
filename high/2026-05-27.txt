@@ -1702,3 +1702,26 @@ IP: 172.236.127.133 | Level: CRITICAL 🚨 | Score: 125
 IP: 213.209.159.175 | Level: HIGH 🔴 | Score: 80
   Reason: PathMatch(.env):+80
   RawLog: 213.209.159.175 - - [27/May/2026:20:39:08 +0000] "GET /.env HTTP/1.1" 444 0 "-" "Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.9a2) Gecko/20080530 Firefox/3.0a2" "-"
+
+--- Update 2026-05-27T20:53:50.620167 ---
+IP: 9.234.149.183 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 9.234.149.183 - - [27/May/2026:20:53:08 +0000] "GET /secret/keys.yaml HTTP/1.1" 404 4003 "https://www.youtube.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" "9.234.149.183"
+IP: 9.234.149.183 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 9.234.149.183 - - [27/May/2026:20:53:08 +0000] "GET /auth.json HTTP/1.1" 404 4003 "https://medium.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" "9.234.149.183"
+IP: 9.234.149.183 | Level: CRITICAL 🚨 | Score: 210
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 9.234.149.183 - - [27/May/2026:20:53:08 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" "9.234.149.183"
+IP: 9.234.149.183 | Level: CRITICAL 🚨 | Score: 250
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 9.234.149.183 - - [27/May/2026:20:53:09 +0000] "GET /secrets.yml HTTP/1.1" 404 4003 "https://www.notion.so/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" "9.234.149.183"
+IP: 9.234.149.183 | Level: CRITICAL 🚨 | Score: 290
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 9.234.149.183 - - [27/May/2026:20:53:09 +0000] "GET /docker-compose.yml HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" "9.234.149.183"
+IP: 9.234.149.183 | Level: CRITICAL 🚨 | Score: 330
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 9.234.149.183 - - [27/May/2026:20:53:09 +0000] "GET /.htpasswd HTTP/1.1" 404 4003 "https://outlook.live.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" "9.234.149.183"
+IP: 9.234.149.183 | Level: CRITICAL 🚨 | Score: 370
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 9.234.149.183 - - [27/May/2026:20:53:10 +0000] "GET /web.config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" "9.234.149.183"

@@ -1607,3 +1607,80 @@ IP: 66.249.69.70 | Level: HIGH 🔴 | Score: 80
 IP: 66.249.69.69 | Level: HIGH 🔴 | Score: 80
   Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
   RawLog: 66.249.69.69 - - [27/May/2026:18:44:36 +0000] "GET /tags/route-abort HTTP/1.1" 200 741280 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "66.249.69.69"
+
+--- Update 2026-05-27T18:57:43.594067 ---
+IP: 74.249.178.114 | Level: HIGH 🔴 | Score: 80
+  Reason: UAMatch(zgrab):+80
+  RawLog: 74.249.178.114 - - [27/May/2026:18:54:09 +0000] "GET /druid/index.html HTTP/1.1" 444 0 "-" "Mozilla/5.0 zgrab/0.x" "-"
+IP: 20.171.55.53 | Level: HIGH 🔴 | Score: 90
+  Reason: PathMatch(.env):+80, SuspiciousStatus(499):+10
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:27 +0000] "GET /config/.env HTTP/1.1" 499 0 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 180
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:27 +0000] "GET /config/.env HTTP/1.1" 404 4003 "https://docs.google.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 190
+  Reason: SuspiciousStatus(404):+10
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:28 +0000] "GET /config.json HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 200
+  Reason: SuspiciousStatus(404):+10
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:28 +0000] "GET /secrets.yml HTTP/1.1" 404 4003 "https://outlook.live.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 240
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:29 +0000] "GET /credentials.yml.enc HTTP/1.1" 404 4003 "https://www.linkedin.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 280
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:29 +0000] "GET /application.yml HTTP/1.1" 404 4003 "https://chat.openai.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 320
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:29 +0000] "GET /appsettings.json HTTP/1.1" 404 4003 "https://medium.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 360
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:29 +0000] "GET /Jenkinsfile HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 400
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:30 +0000] "GET /cloudbuild.yaml HTTP/1.1" 404 4003 "https://www.google.com/search?q=" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 520
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:30 +0000] "GET /.env HTTP/1.1" 404 4003 "https://www.youtube.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 560
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:30 +0000] "GET /app.yaml HTTP/1.1" 404 4003 "https://docs.google.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 600
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:30 +0000] "GET /Dockerfile HTTP/1.1" 404 4003 "https://mail.google.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 640
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:30 +0000] "GET /docker-compose.yml HTTP/1.1" 404 4003 "https://www.google.com/search?q=" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 680
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:31 +0000] "GET /gcp-account.json HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 720
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:31 +0000] "GET /service-account.json HTTP/1.1" 404 3998 "https://medium.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 760
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:31 +0000] "GET /sa-key.json HTTP/1.1" 404 4003 "https://www.linkedin.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 800
+  Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:31 +0000] "GET /credentials.json HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 890
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:32 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 1010
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:32 +0000] "GET /.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 1130
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:32 +0000] "GET /.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 1220
+  Reason: PathMatch(/etc/):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:32 +0000] "GET /@fs/etc/passwd?import&raw HTTP/1.1" 404 4003 "https://www.yahoo.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 1310
+  Reason: PathMatch(/etc/):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:33 +0000] "GET /@fs/etc/passwd?import?raw HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 1400
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:33 +0000] "GET /@fs/.git/config?import&raw HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"
+IP: 20.171.55.53 | Level: CRITICAL 🚨 | Score: 1490
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.171.55.53 - - [27/May/2026:18:54:33 +0000] "GET /@fs/.git/config?import?raw HTTP/1.1" 404 4003 "https://github.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" "20.171.55.53"

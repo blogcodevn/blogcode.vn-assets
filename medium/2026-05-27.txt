@@ -91,3 +91,8 @@ IP: 172.70.80.188 | Level: MEDIUM 🟡 | Score: 60
 IP: 172.64.192.73 | Level: MEDIUM 🟡 | Score: 70
   Reason: Method(POST):+10
   RawLog: 172.64.192.73 - - [27/May/2026:16:41:06 +0000] "POST /graphql/api HTTP/1.1" 301 169 "-" "Mozilla/5.0 (l9scan/2.0.2313e27393e2431313e2838313; +https://leakix.net)" "134.209.25.199"
+
+--- Update 2026-05-27T18:01:11.318987 ---
+IP: 89.190.156.61 | Level: MEDIUM 🟡 | Score: 60
+  Reason: Method(POST):+10, RefererMatch(103.1.237.177):+50
+  RawLog: 89.190.156.61 - - [27/May/2026:18:00:47 +0000] "POST /boaform/admin/formLogin HTTP/1.1" 444 0 "http://103.1.237.177:80/admin/login.asp" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" "-"

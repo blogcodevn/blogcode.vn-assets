@@ -1780,3 +1780,23 @@ IP: 48.211.213.34 | Level: CRITICAL 🚨 | Score: 810
 IP: 216.244.66.241 | Level: HIGH 🔴 | Score: 80
   Reason: SuspiciousStatus(404):+10, EscalationPenalty:+30
   RawLog: 216.244.66.241 - - [27/May/2026:21:43:14 +0000] "GET /robots.txt HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (compatible; DotBot/1.2; +https://opensiteexplorer.org/dotbot; help@moz.com)" "216.244.66.241"
+
+--- Update 2026-05-27T21:49:26.574113 ---
+IP: 178.214.77.68 | Level: CRITICAL 🚨 | Score: 110
+  Reason: PathMatch(.php):+40, SuspiciousStatus(400):+15
+  RawLog: 178.214.77.68 - - [27/May/2026:21:44:08 +0000] "GET /admin/config.php HTTP/1.1" 400 157 "-" "gbrmss/7.29.0" "-"
+IP: 17.241.219.236 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 17.241.219.236 - - [27/May/2026:21:45:55 +0000] "GET /_next/static/chunks/0bmageb~a8772.js HTTP/1.1" 200 16323 "https://blogcode.vn/tags/state-machine" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)" "17.241.219.236"
+IP: 17.241.219.247 | Level: HIGH 🔴 | Score: 80
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 17.241.219.247 - - [27/May/2026:21:45:55 +0000] "GET /_next/static/chunks/12qz7kg_ft3p0.js HTTP/1.1" 200 12892 "https://blogcode.vn/tags/state-machine" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)" "17.241.219.247"
+IP: 17.241.219.236 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 17.241.219.236 - - [27/May/2026:21:45:57 +0000] "GET /_next/static/chunks/15yo81_eltmcm.js HTTP/1.1" 200 3540 "https://blogcode.vn/tags/state-machine" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)" "17.241.219.236"
+IP: 17.241.219.247 | Level: CRITICAL 🚨 | Score: 120
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 17.241.219.247 - - [27/May/2026:21:45:57 +0000] "GET /_next/static/chunks/0elu8bkmilu96.js HTTP/1.1" 200 39376 "https://blogcode.vn/tags/state-machine" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)" "17.241.219.247"
+IP: 17.241.219.247 | Level: CRITICAL 🚨 | Score: 160
+  Reason: SuspiciousStatus(200):+10, EscalationPenalty:+30
+  RawLog: 17.241.219.247 - - [27/May/2026:21:45:58 +0000] "GET /_next/static/chunks/0~zccwm3lhu_r.js HTTP/1.1" 200 8580 "https://blogcode.vn/tags/state-machine" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)" "17.241.219.247"

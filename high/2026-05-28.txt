@@ -146,3 +146,11 @@ IP: 185.100.87.136 | Level: CRITICAL 🚨 | Score: 125
 IP: 185.100.87.136 | Level: CRITICAL 🚨 | Score: 210
   Reason: WeirdMethod(\x10):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
   RawLog: 185.100.87.136 - - [28/May/2026:00:58:41 +0000] "\x10 \x00\x00BBBB\xBA\x8C\xC1\xABDAAA" 400 157 "-" "-" "-"
+
+--- Update 2026-05-28T01:17:05.439679 ---
+IP: 172.71.203.97 | Level: CRITICAL 🚨 | Score: 100
+  Reason: PathMatch(wp-login):+60, PathMatch(.php):+40
+  RawLog: 172.71.203.97 - - [28/May/2026:01:16:01 +0000] "GET /wp-login.php HTTP/1.1" 301 169 "-" "Mozilla/5.0" "157.230.58.1"
+IP: 157.230.58.1 | Level: CRITICAL 🚨 | Score: 110
+  Reason: PathMatch(wp-login):+60, PathMatch(.php):+40, SuspiciousStatus(404):+10
+  RawLog: 157.230.58.1 - - [28/May/2026:01:16:02 +0000] "GET /wp-login.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0" "157.230.58.1"

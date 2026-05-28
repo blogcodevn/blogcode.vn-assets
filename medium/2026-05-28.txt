@@ -66,3 +66,17 @@ IP: 104.152.52.124 | Level: MEDIUM 🟡 | Score: 65
 IP: 20.9.93.142 | Level: MEDIUM 🟡 | Score: 50
   Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10
   RawLog: 20.9.93.142 - - [28/May/2026:00:22:55 +0000] "GET /wp-good.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+
+--- Update 2026-05-28T05:57:17.236705 ---
+IP: 20.9.93.142 | Level: MEDIUM 🟡 | Score: 50
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:01 +0000] "GET /god4m.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 45.148.120.78 | Level: MEDIUM 🟡 | Score: 50
+  Reason: UAExactMatch:+50
+  RawLog: 45.148.120.78 - - [28/May/2026:00:24:47 +0000] "GET / HTTP/1.1" 444 0 "-" "-" "-"
+IP: 118.193.56.246 | Level: MEDIUM 🟡 | Score: 65
+  Reason: UAExactMatch:+50
+  RawLog: 118.193.56.246 - - [28/May/2026:02:29:26 +0000] "OPTIONS / HTTP/1.0" 444 0 "-" "-" "-"
+IP: 45.148.10.120 | Level: MEDIUM 🟡 | Score: 60
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10
+  RawLog: 45.148.10.120 - - [28/May/2026:04:21:16 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPod; U; CPU iPhone OS 6_1 like Mac OS X; en-HK) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IP Mobile" "45.148.10.120"

@@ -11,3 +11,8 @@ IP: 45.148.120.78 | Level: MEDIUM 🟡 | Score: 50
 IP: 118.193.56.246 | Level: MEDIUM 🟡 | Score: 65
   Reason: UAExactMatch:+50
   RawLog: 118.193.56.246 - - [28/May/2026:02:29:26 +0000] "OPTIONS / HTTP/1.0" 444 0 "-" "-" "-"
+
+--- Update 2026-05-28T04:24:20.243645 ---
+IP: 45.148.10.120 | Level: MEDIUM 🟡 | Score: 60
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10
+  RawLog: 45.148.10.120 - - [28/May/2026:04:21:16 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPod; U; CPU iPhone OS 6_1 like Mac OS X; en-HK) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IP Mobile" "45.148.10.120"

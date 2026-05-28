@@ -318,3 +318,68 @@ IP: 162.158.167.74 | Level: CRITICAL 🚨 | Score: 100
 IP: 137.184.12.23 | Level: CRITICAL 🚨 | Score: 110
   Reason: PathMatch(wp-login):+60, PathMatch(.php):+40, SuspiciousStatus(404):+10
   RawLog: 137.184.12.23 - - [28/May/2026:02:59:50 +0000] "GET /wp-login.php HTTP/1.1" 404 3998 "-" "Mozilla/5.0" "137.184.12.23"
+
+--- Update 2026-05-28T03:13:35.645468 ---
+IP: 34.77.9.111 | Level: HIGH 🔴 | Score: 85
+  Reason: WeirdMethod(\x16\x03\x01\x05\xC4\x01\x00\x05\xC0\x03\x03\x07S\xA7I#YQ/\x1B\xC0\xA2\x09):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 34.77.9.111 - - [28/May/2026:03:11:12 +0000] "\x16\x03\x01\x05\xC4\x01\x00\x05\xC0\x03\x03\x07S\xA7I#YQ/\x1B\xC0\xA2\x09 \xD3RG\xC0\xE7F%\x19\xA7_\x9F\xBF\xE4\xC3\xA9\xFD$\xE0o \xB4\xBC\x0F\xBDh\xBC\x8Fn\x07\xA1#\xDB\x9B\x89\xEA\xE0\xD76\x06\xD5\xE9\xB9m\xF8\x83\xB7\x8D\xFF\xF3\x85j\xE3\x002\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 210
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 34.77.9.111 - - [28/May/2026:03:11:18 +0000] ";\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xD4\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00\xFF\xFF\xFF\xFF\x14\x00\x00\x00\x01hello\x00\x00\x00\x00\x00\x00\x00\xF0?\x00" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 335
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 34.77.9.111 - - [28/May/2026:03:11:19 +0000] "@\xC5\x5C\xD1\x90g\xE70\xF5\xDCF\xD7\x01\xDEd?\xE2\xAB\xBD\xC7G\xA9\x09\xCE\x10\x84\x88\xAB\xD6\xEC\x1F\xBD\x1D\xA1\xAF2U\x02\x7F\x5C\xAD\xB5\xB0\xCE\xD3\xD1K\xD2R3xQ\xB2\xFD\x93\x17e_|!\x04W]p" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 460
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 34.77.9.111 - - [28/May/2026:03:11:58 +0000] "\x00\x1E\xE2\x0E\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 615
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:08 +0000] "\x03\x00\x00\x13\x0E\xE0\x00\x00\x00\x00\x00\x01\x00\x08\x00\x0B\x00\x00\x00" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 770
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:28 +0000] "\x12\x01\x00X\x00\x00\x01\x00\x00\x00\x1F\x00\x06\x01\x00%\x00\x01\x02\x00&\x00\x01\x03\x00'\x00\x04\x04\x00+\x00\x01\x05\x00,\x00$\xFF\x11\x09\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\xF9\xB8\xCB\x5C\x94k\x89\x1F\xD9\xAA<\x13K\xD0{\x88\x03\x5C2!$\xA2\x81\x867\xCFb9JF,\xC6\x00\x00\x00\x00" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 925
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:28 +0000] "0:\x02\x04(" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 1040
+  Reason: WeirdMethod(\x00\x00\x00C\x00\x12\x00\x00\x1E3\xF4\x81\x00\x1Fconsumer-Offset):+20, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:38 +0000] "\x00\x00\x00C\x00\x12\x00\x00\x1E3\xF4\x81\x00\x1Fconsumer-Offset Explorer 2.2-18\x00\x12apache-kafka-java\x062.4.0\x00" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 1195
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:39 +0000] "\x00\x00\x00#\x00\x03\x00\x00\x1E3\xF4\x81\x00" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 1350
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:49 +0000] "\x80\x00\x00(r\xFE\x1D\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86\xA0\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 1505
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:50 +0000] "\x00\x00\x00f\xFESMB@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1F\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x13333333333333337\x00\x00\x00\x00\x00\x00\x00\x00\x02\x02" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 1660
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:50 +0000] "?\x86\x00\x00\x00\x06\x01\x02\x00\x00\x00\x01" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 1815
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:50 +0000] "*1" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 1970
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:51 +0000] "\x10\x11\x00\x04MQTT\x03\x02\x00<\x00\x05AAAAA" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 2125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:51 +0000] "JDWP-Handshake" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 2280
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:52 +0000] "JRMI\x00\x02K" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 2435
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:52 +0000] "\x10\x12\x00\x04MQTT\x05\x02\x00<\x00\x00\x05AAAAA" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 2550
+  Reason: WeirdMethod(@RSYTCD:):+20, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:52 +0000] "@RSYTCD: 29" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 2705
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:53 +0000] "\x00\xF1\x00\x00\x01\x00\x00\x00\x01<\x01,\x00\x00\x80\x00\x7F\xFF\x7F\x08\x00\x00\x00\x01\x00\xB7\x00:\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00(DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=non-abc-existent-ser-vice-123-a-a-bc-asdf)(CID=(PROGRAM=sqlplus)(HOST=__jdbc__)(USER=)))(ADDRESS=(PROTOCOL=tcp)(HOST=103.1.237.177)(PORT=80)))" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 2860
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:53 +0000] "\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00" 400 157 "-" "-" "-"
+IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 2955
+  Reason: UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
+  RawLog: 34.77.9.111 - - [28/May/2026:03:12:54 +0000] "OPTIONS rtsp://example.com RTSP/1.0" 400 157 "-" "-" "-"

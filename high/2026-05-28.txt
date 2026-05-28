@@ -138,3 +138,11 @@ IP: 178.214.77.67 | Level: CRITICAL 🚨 | Score: 330
 IP: 93.174.93.12 | Level: HIGH 🔴 | Score: 85
   Reason: WeirdMethod(\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RH\xC5\x1A#\xF7:N\xDF\xE2\xB4\x82/\xFF\x09T\x9F\xA7\xC4y\xB0h\xC6\x13\x8C\xA4\x1C=\x22\xE1\x1A\x98):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
   RawLog: 93.174.93.12 - - [28/May/2026:00:48:57 +0000] "\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RH\xC5\x1A#\xF7:N\xDF\xE2\xB4\x82/\xFF\x09T\x9F\xA7\xC4y\xB0h\xC6\x13\x8C\xA4\x1C=\x22\xE1\x1A\x98 \x84\xB4,\x85\xAFn\xE3Y\xBBbhl\xFF(=':\xA9\x82\xD9o\xC8\xA2\xD7\x93\x98\xB4\xEF\x80\xE5\xB9\x90\x00(\xC0" 400 157 "-" "-" "-"
+
+--- Update 2026-05-28T01:01:52.353298 ---
+IP: 185.100.87.136 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 185.100.87.136 - - [28/May/2026:00:58:40 +0000] "\xC9\x94\xD1\xA6\xAE\x9C\x05lM/\x09\x8Cp#\xEE\x9D*5#]\xC7R:\xC8\x8E/\x11\xB8\xCD\x89Z\xFB\xA4\x19f\xD2\xCE\xB3\xA1\x81\xBB\xFC\xA0\xDD%d1\x17\xA6%n\xC5" 400 157 "-" "-" "-"
+IP: 185.100.87.136 | Level: CRITICAL 🚨 | Score: 210
+  Reason: WeirdMethod(\x10):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 185.100.87.136 - - [28/May/2026:00:58:41 +0000] "\x10 \x00\x00BBBB\xBA\x8C\xC1\xABDAAA" 400 157 "-" "-" "-"

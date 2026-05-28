@@ -1,0 +1,8 @@
+
+--- Update 2026-05-28T00:25:56.805639 ---
+IP: 20.9.93.142 | Level: MEDIUM 🟡 | Score: 50
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:55 +0000] "GET /wp-good.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 45.148.120.78 | Level: MEDIUM 🟡 | Score: 50
+  Reason: UAExactMatch:+50
+  RawLog: 45.148.120.78 - - [28/May/2026:00:24:47 +0000] "GET / HTTP/1.1" 444 0 "-" "-" "-"

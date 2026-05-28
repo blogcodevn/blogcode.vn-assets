@@ -8,3 +8,113 @@ IP: 190.52.110.166 | Level: CRITICAL 🚨 | Score: 205
 IP: 187.17.224.139 | Level: CRITICAL 🚨 | Score: 115
   Reason: UAMatch(masscan):+100, SuspiciousStatus(400):+15
   RawLog: 187.17.224.139 - - [28/May/2026:00:16:02 +0000] "GET / HTTP/1.0" 400 255 "-" "ivre-masscan/1.3 https://github.com/robertdavidgraham/" "-"
+
+--- Update 2026-05-28T00:25:56.805875 ---
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 100
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:55 +0000] "GET /file.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 150
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:56 +0000] "GET /bless.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 200
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:56 +0000] "GET /admin.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 280
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:56 +0000] "GET /ioxi-o.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 360
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:57 +0000] "GET /adminfuns.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 490
+  Reason: PathMatch(wp-content):+50, PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:57 +0000] "GET /wp-content/admin.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 570
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:57 +0000] "GET /aa.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 650
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:58 +0000] "GET /xmrlpc.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 730
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:58 +0000] "GET /class.php HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 810
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:58 +0000] "GET /goods.php HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 890
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:58 +0000] "GET /info.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 970
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:59 +0000] "GET /as.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1050
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:59 +0000] "GET /aw.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1130
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:59 +0000] "GET /bb.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1210
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:22:59 +0000] "GET /about.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1290
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:00 +0000] "GET /222.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1370
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:00 +0000] "GET /test1.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1450
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:00 +0000] "GET /classwithtostring.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1530
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:00 +0000] "GET /css/autoload_classmap.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1610
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:01 +0000] "GET /fx.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1690
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:01 +0000] "GET /gelay.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1770
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:01 +0000] "GET /god4m.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1850
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:01 +0000] "GET /mari.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 1930
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:02 +0000] "GET /moon.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 2010
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:02 +0000] "GET /o.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 2090
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:02 +0000] "GET /tmp.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 2180
+  Reason: PathMatch(wp-admin):+60, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:03 +0000] "GET /wp-admin/js/ HTTP/1.1" 308 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 2320
+  Reason: PathMatch(wp-admin):+60, PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:03 +0000] "GET /wp-admin/a.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 2460
+  Reason: PathMatch(wp-admin):+60, PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:03 +0000] "GET /wp-admin/alfa.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 2560
+  Reason: PathMatch(wp-admin):+60, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:03 +0000] "GET /wp-admin/css/colors HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 2650
+  Reason: PathMatch(wp-admin):+60, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:04 +0000] "GET /wp-admin/js/widgets/ HTTP/1.1" 308 31 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 2790
+  Reason: PathMatch(wp-admin):+60, PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:04 +0000] "GET /wp-admin/network/index.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 2920
+  Reason: PathMatch(wp-content):+50, PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:04 +0000] "GET /wp-content/plugins/core-plugin/include.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 3000
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:05 +0000] "GET /wp-includes/IXR/test1.php HTTP/1.1" 404 3998 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 3080
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:05 +0000] "GET /wp-includes/js/crop/cropper.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 20.9.93.142 | Level: CRITICAL 🚨 | Score: 3160
+  Reason: PathMatch(wp-content):+50, EscalationPenalty:+30
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:05 +0000] "GET /wp-content/themes/ HTTP/1.1" 308 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"

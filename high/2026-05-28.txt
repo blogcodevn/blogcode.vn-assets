@@ -235,3 +235,17 @@ IP: 118.193.56.246 | Level: CRITICAL 🚨 | Score: 255
 IP: 118.193.56.246 | Level: CRITICAL 🚨 | Score: 370
   Reason: WeirdMethod(t3):+20, UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
   RawLog: 118.193.56.246 - - [28/May/2026:02:29:29 +0000] "t3 12.1.2" 400 157 "-" "-" "-"
+
+--- Update 2026-05-28T02:42:50.876920 ---
+IP: 50.116.26.161 | Level: HIGH 🔴 | Score: 95
+  Reason: UAMatch(zgrab):+80, SuspiciousStatus(400):+15
+  RawLog: 50.116.26.161 - - [28/May/2026:02:38:47 +0000] "GET / HTTP/1.1" 400 255 "-" "Mozilla/5.0 zgrab/0.x" "-"
+IP: 207.175.60.212 | Level: HIGH 🔴 | Score: 85
+  Reason: WeirdMethod(\x16\x03\x01\x05\xC4\x01\x00\x05\xC0\x03\x03\x07\xF3\xB1\xFEy/g`\xDA\xE2\x0C\x95d<Iy\x1D-I\xF4\xFB\xD8%\x06\x9F\xD4\xF0\xD6\xE3\xE9\xD9\xAE):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 207.175.60.212 - - [28/May/2026:02:42:12 +0000] "\x16\x03\x01\x05\xC4\x01\x00\x05\xC0\x03\x03\x07\xF3\xB1\xFEy/g`\xDA\xE2\x0C\x95d<Iy\x1D-I\xF4\xFB\xD8%\x06\x9F\xD4\xF0\xD6\xE3\xE9\xD9\xAE \xDA\xF7\xF1i\xC9\xD2[O\xEE\xCC\x11\xCB=FN\xE5,\xD1N\x83\xCD\xC4!\x1B\x96\xEA\x1Er\x1F \x04\xF6\x002\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 157 "-" "-" "-"
+IP: 207.175.60.212 | Level: CRITICAL 🚨 | Score: 210
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 207.175.60.212 - - [28/May/2026:02:42:17 +0000] ";\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xD4\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00\xFF\xFF\xFF\xFF\x14\x00\x00\x00\x01hello\x00\x00\x00\x00\x00\x00\x00\xF0?\x00" 400 157 "-" "-" "-"
+IP: 207.175.60.212 | Level: CRITICAL 🚨 | Score: 335
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 207.175.60.212 - - [28/May/2026:02:42:18 +0000] "\xB0\x0B},V\xB3\x83\xFA\xC4s,4\x01Jp\x11\x08xo\x8F\xCA\xF8\x81\x14O\x94\x16\xF1\xEB\xE7\xFC\xD8AG\xA1\xD6-\x02~\x86v,\xF3s*\xB9\xFDBQcEs\xB2\xBA\xBA\xB6\xBB\x00!;\x8A;\xA8\xE9" 400 157 "-" "-" "-"

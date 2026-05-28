@@ -170,3 +170,14 @@ IP: 178.214.77.68 | Level: MEDIUM 🟡 | Score: 55
 IP: 159.253.120.224 | Level: MEDIUM 🟡 | Score: 50
   Reason: UAExactMatch:+50
   RawLog: 159.253.120.224 - - [28/May/2026:10:06:27 +0000] "GET / HTTP/1.1" 444 0 "-" "-" "-"
+
+--- Update 2026-05-28T14:22:43.670191 ---
+IP: 202.9.122.32 | Level: MEDIUM 🟡 | Score: 50
+  Reason: UAExactMatch:+50
+  RawLog: 202.9.122.32 - - [28/May/2026:12:30:20 +0000] "GET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.0" 444 0 "-" "-" "-"
+IP: 18.116.242.183 | Level: MEDIUM 🟡 | Score: 60
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10
+  RawLog: 18.116.242.183 - - [28/May/2026:12:53:12 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" "18.116.242.183"
+IP: 171.233.134.36 | Level: MEDIUM 🟡 | Score: 60
+  Reason: Method(POST):+10, SuspiciousStatus(200):+10
+  RawLog: 171.233.134.36 - - [28/May/2026:14:14:00 +0000] "POST /api/v1/view-count HTTP/1.1" 200 27 "https://blogcode.vn/series/ai-engineer-math/lo-trinh-series-python-data-math" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "171.233.134.36"

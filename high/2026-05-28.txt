@@ -305,3 +305,8 @@ IP: 207.175.60.212 | Level: CRITICAL 🚨 | Score: 2860
 IP: 207.175.60.212 | Level: CRITICAL 🚨 | Score: 2955
   Reason: UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
   RawLog: 207.175.60.212 - - [28/May/2026:02:43:54 +0000] "OPTIONS rtsp://example.com RTSP/1.0" 400 157 "-" "-" "-"
+
+--- Update 2026-05-28T02:53:13.257161 ---
+IP: 185.242.226.15 | Level: CRITICAL 🚨 | Score: 125
+  Reason: Method(MALFORMED):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 185.242.226.15 - - [28/May/2026:02:53:01 +0000] "\x16\x03\x01\x00\x8B\x01\x00\x00\x87\x03\x03\x0B\x0B\xE0\x93\xE4C\xBAlJS\xD3K6" 400 157 "-" "-" "-"

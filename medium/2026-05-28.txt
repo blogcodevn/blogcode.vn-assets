@@ -6,3 +6,8 @@ IP: 20.9.93.142 | Level: MEDIUM 🟡 | Score: 50
 IP: 45.148.120.78 | Level: MEDIUM 🟡 | Score: 50
   Reason: UAExactMatch:+50
   RawLog: 45.148.120.78 - - [28/May/2026:00:24:47 +0000] "GET / HTTP/1.1" 444 0 "-" "-" "-"
+
+--- Update 2026-05-28T02:32:38.914081 ---
+IP: 118.193.56.246 | Level: MEDIUM 🟡 | Score: 65
+  Reason: UAExactMatch:+50
+  RawLog: 118.193.56.246 - - [28/May/2026:02:29:26 +0000] "OPTIONS / HTTP/1.0" 444 0 "-" "-" "-"

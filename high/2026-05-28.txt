@@ -383,3 +383,11 @@ IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 2860
 IP: 34.77.9.111 | Level: CRITICAL 🚨 | Score: 2955
   Reason: UAExactMatch:+50, SuspiciousStatus(400):+15, EscalationPenalty:+30
   RawLog: 34.77.9.111 - - [28/May/2026:03:12:54 +0000] "OPTIONS rtsp://example.com RTSP/1.0" 400 157 "-" "-" "-"
+
+--- Update 2026-05-28T03:28:46.834553 ---
+IP: 45.148.10.200 | Level: HIGH 🔴 | Score: 85
+  Reason: WeirdMethod(\x16\x03\x01\x01\x0C\x01\x00\x01\x08\x03\x03\x05\x96\xD6\xB8\x8Ar[\xB60\x1E\x01Z\x8A\xC3\x97(\x8C.\x824\x1F\xF2\xF5,\x07xt3\xB8)BP):+20, UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 45.148.10.200 - - [28/May/2026:03:25:40 +0000] "\x16\x03\x01\x01\x0C\x01\x00\x01\x08\x03\x03\x05\x96\xD6\xB8\x8Ar[\xB60\x1E\x01Z\x8A\xC3\x97(\x8C.\x824\x1F\xF2\xF5,\x07xt3\xB8)BP \xBAW\xDEV\xD5\x03m`^\xFF\xC9j\xC5\xE7X17\xFE6\xC6\xC0\xCCug\x1D\xA6\x09{J!\xF0\xF9\x00&\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 157 "-" "-" "-"
+IP: 45.148.10.200 | Level: CRITICAL 🚨 | Score: 150
+  Reason: UAExactMatch:+50, SuspiciousStatus(400):+15
+  RawLog: 45.148.10.200 - - [28/May/2026:03:25:40 +0000] "GET / HTTP/1.1" 400 157 "-" "-" "-"

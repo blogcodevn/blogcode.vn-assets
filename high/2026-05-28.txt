@@ -396,3 +396,8 @@ IP: 45.148.10.200 | Level: CRITICAL 🚨 | Score: 150
 IP: 69.164.217.74 | Level: HIGH 🔴 | Score: 95
   Reason: UAMatch(zgrab):+80, SuspiciousStatus(400):+15
   RawLog: 69.164.217.74 - - [28/May/2026:03:40:25 +0000] "GET / HTTP/1.1" 400 255 "-" "Mozilla/5.0 zgrab/0.x" "-"
+
+--- Update 2026-05-28T03:49:09.327536 ---
+IP: 176.65.139.235 | Level: HIGH 🔴 | Score: 90
+  Reason: PathMatch(.env):+80, SuspiciousStatus(404):+10
+  RawLog: 176.65.139.235 - - [28/May/2026:03:45:56 +0000] "GET /.env HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" "176.65.139.235"

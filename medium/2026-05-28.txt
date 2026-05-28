@@ -147,3 +147,26 @@ IP: 104.152.52.124 | Level: MEDIUM 🟡 | Score: 65
 IP: 20.9.93.142 | Level: MEDIUM 🟡 | Score: 50
   Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10
   RawLog: 20.9.93.142 - - [28/May/2026:00:22:55 +0000] "GET /wp-good.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+
+--- Update 2026-05-28T14:17:24.720906 ---
+IP: 20.9.93.142 | Level: MEDIUM 🟡 | Score: 50
+  Reason: PathMatch(.php):+40, SuspiciousStatus(404):+10
+  RawLog: 20.9.93.142 - - [28/May/2026:00:23:01 +0000] "GET /god4m.php HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "20.9.93.142"
+IP: 45.148.120.78 | Level: MEDIUM 🟡 | Score: 50
+  Reason: UAExactMatch:+50
+  RawLog: 45.148.120.78 - - [28/May/2026:00:24:47 +0000] "GET / HTTP/1.1" 444 0 "-" "-" "-"
+IP: 118.193.56.246 | Level: MEDIUM 🟡 | Score: 65
+  Reason: UAExactMatch:+50
+  RawLog: 118.193.56.246 - - [28/May/2026:02:29:26 +0000] "OPTIONS / HTTP/1.0" 444 0 "-" "-" "-"
+IP: 45.148.10.120 | Level: MEDIUM 🟡 | Score: 60
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10
+  RawLog: 45.148.10.120 - - [28/May/2026:04:21:16 +0000] "GET /.git/config HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (iPod; U; CPU iPhone OS 6_1 like Mac OS X; en-HK) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IP Mobile" "45.148.10.120"
+IP: 2a13:9500:16b:a871::1 | Level: MEDIUM 🟡 | Score: 60
+  Reason: PathMatch(.git):+50, SuspiciousStatus(404):+10
+  RawLog: 2a13:9500:16b:a871::1 - - [28/May/2026:05:47:45 +0000] "GET /.git/HEAD HTTP/1.1" 404 4003 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 15.7; rv:149.0) Gecko/20100101 Firefox/149.0" "2a13:9500:16b:a871::1"
+IP: 178.214.77.68 | Level: MEDIUM 🟡 | Score: 55
+  Reason: PathMatch(.php):+40, SuspiciousStatus(400):+15
+  RawLog: 178.214.77.68 - - [28/May/2026:06:47:40 +0000] "GET /admin/config.php HTTP/1.1" 400 157 "-" "gbrmss/7.29.0" "-"
+IP: 159.253.120.224 | Level: MEDIUM 🟡 | Score: 50
+  Reason: UAExactMatch:+50
+  RawLog: 159.253.120.224 - - [28/May/2026:10:06:27 +0000] "GET / HTTP/1.1" 444 0 "-" "-" "-"

